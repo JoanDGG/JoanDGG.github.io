@@ -1,7 +1,7 @@
 # Welcome to Deverso
 ## Epic phrase in here 🤷‍♂️😎
 
-This is a personal portfolio to showcase what I consider my best collection of work so far as well as a brief introduction of myself, thank you for reading!
+This is a personal portfolio to showcase what I consider my best collection of work so far as well as a [brief introduction of myself](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/README.md#introduction), thank you for reading!
 
 ## Introduction
 
