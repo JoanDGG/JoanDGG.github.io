@@ -1,12 +1,11 @@
-## Welcome to GitHub Pages
+# Welcome to Deverso
+## Epic phrase in here 🤷‍♂️😎
 
-You can use the [editor on GitHub](https://github.com/JoanDGG/JoanDGG.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This is a personal portfolio to showcase what I consider my best collection of work so far as well as a brief introduction of myself, thank you for reading!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Introduction
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Deverso (me) is a solodev studio focused on creating games that offer high-impact experiences, to think about life, appretiate the little things, and have fun :)
 
 ```markdown
 Syntax highlighted code block
