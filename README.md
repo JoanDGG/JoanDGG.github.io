@@ -40,28 +40,28 @@ Working on a full stack solution for a contact center using Amazon Connect and A
 
 ### Games showcase
 
-![Honey, you’re dreaming]()
+![Honey, you’re dreaming](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Images/Honey%20youre%20dreaming.png)
 *	[“Honey, you’re dreaming”](https://arcade-dogo.itch.io/honey-youre-dreaming) Game created during Game Jam ‘Brackeys Game Jam 2022.1’ (2022)
 
-![TGUCC]()
+![TGUCC](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Images/TGUCC.png)
 *	[“TGUCC”](https://deversogg.itch.io/tgucc) Game created during Game Jam ‘Spooky Jam 2021’ (2021)
 
-![Break]()
+![Break](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Images/Break.png)
 *	[“Break”](https://arcade-dogo.itch.io/break) Game created during Game Jam ‘Mini jam 87: Break’ (2021)
 
-![Time Twist Mayhem]()
+![Time Twist Mayhem](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Images/Time%20twist%20mayhem.jpg)
 *	[“Time Twist Mayhem”](https://deversogg.itch.io/time-twist-mayhem) Game created during Game Jam ‘A jam about time’ (2021)
 
-![Personal space]()
+![Personal space](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Images/Personal%20space.png)
 *	[“Personal space”](https://deversogg.itch.io/personal-space) Chill personal game created in 24 hours (2021)
 
-![Yaoyotl]()
+![Yaoyotl](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Images/Yaoyotl.png)
 *	[“Yaoyotl”](https://dany-guy.itch.io/yaoyotl) Game created during Game Jam ‘Game Jam 2021 from Tec de Monterrey’ (2020)
 
-![Space Rocks]()
+![Space Rocks](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Images/Space%20rocks.png)
 *	[“Space Rocks”](https://deversogg.itch.io/space-rocks) Fan game created in honor of the classic game ‘Asteroids’ (2019)
 
-![Neko game!!]()
+![Neko game!!](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Images/Neko%20game.png)
 *	[“Neko game!!”](https://deversogg.itch.io/neko-game) Fan game created in honor of the Windows phone game ‘Neko’ (2019)
 
 ![Space Intruder]()
