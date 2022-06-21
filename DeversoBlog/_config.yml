@@ -27,10 +27,29 @@ url: "deversogg" # the base hostname & protocol for your site, e.g. http://examp
 github_username:  JoanDGG
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
 
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
