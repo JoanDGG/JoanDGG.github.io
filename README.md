@@ -64,5 +64,5 @@ Working on a full stack solution for a contact center using Amazon Connect and A
 ![Neko game!!](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Images/Neko%20game.png)
 *	[“Neko game!!”](https://deversogg.itch.io/neko-game) Fan game created in honor of the Windows phone game ‘Neko’ (2019)
 
-![Space Intruder]()
+![Space Intruder](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Images/Space%20intruders.png)
 *	[“Space Intruder”](https://deversogg.itch.io/space-intruders) Fan game created in honor of the classic game ‘Space Invaders’ (2019) 
