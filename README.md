@@ -37,7 +37,7 @@ Created a 3D multi-agent traffic visualization displayed in `Unity 3D Engine`, u
 
 - **TECMEX APP**
 [Github repository](https://github.com/AmazonConnect-TECCEM-502)
-Working on a full stack solution for a contact center using Amazon Connect and AWS services, producing the interface with React
+Working on a full stack solution for a contact center using `Amazon Connect` and `AWS services`, producing the interface with `React`.
 ```
 
 ### Games showcase
