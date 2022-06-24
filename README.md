@@ -21,11 +21,11 @@ Deverso (me) is a solodev studio focused on creating games that offer high-impac
 ```markdown
 Experience
 
-- [**PROYECTO MARTE**](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Documents/Documentacion%20proyecto%20marte.pdf)
+- [**PROYECTO MARTE**](./Documents/Documentacion%20proyecto%20marte.pdf)
 [Github repository](https://github.com/JoanDGG/Proyecto-Marte)
 Developed a 2D video game with `Unity 2D` Engine using `C#`, with the purpose of spreading STEAM’s mission while obtaining user’s data through a `MySQL` database.
 
-- [**APP DIBUJANDO UN MAÑANA**](https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Documents/Documentacion%20dibujando%20un%20mañana.pdf)
+- [**APP DIBUJANDO UN MAÑANA**](./Documents/Documentacion%20dibujando%20un%20ma%C3%B1ana.pdf)
 [Github repository](https://github.com/aenco9/dibujandoApp)
 Developed a mobile app with `Android Studio` using `Kotlin` which promotes the activities and donations done by the foundation Dibujando un mañana. Connected the app with a `Firebase` database and uses the `PayPal` services.
 
