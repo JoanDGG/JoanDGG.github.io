@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Deverso's Homepage
 # description: This will be meta HTML tag content. This can be ignored.
-description: Personal website powered by Jekyll
+description: Personal website and professional portfolio powered by Jekyll
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
@@ -25,7 +25,8 @@ codepen_username:
 dev_username: 
 linkedin_username: joan-daniel-guerrero-garcia
 twitter_username: 
-# discord_username: JoanGG#6840
+# discord_username: JoanGG
+# itchio_username: deversogg
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -54,7 +55,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+cv_download_link: https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Documents/CV%20Joan%20Daniel%20Guerrero%20García.pdf
 
 # PROJECTS SECTION
 # show_projects_card:

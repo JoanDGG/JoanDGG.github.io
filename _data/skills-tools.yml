@@ -9,28 +9,34 @@
   weight: 5
 
 - name: Bash
-  weight: 3
+  weight: 4
 
 - name: Scrum
   weight: 3
 
-- name: Travis CI
-  weight: 1
-
-- name: Jenkins
-  weight: 1
-
-- name: Chrome DevTools
-  weight: 2
-
 - name: npm
   weight: 2
-
-- name: gulp
-  weight: 4
 
 - name: VS Code
   weight: 3
 
 - name: Postman
   weight: 4
+
+- name: Discord
+  weight: 5
+
+- name: Unity
+  weight: 5
+
+- name: GameMaker Studio 2
+  weight: 4
+
+- name: MySQL
+  weight: 4
+
+- name: SQL Server
+  weight: 2
+
+- name: Firebase
+  weight: 1

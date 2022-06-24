@@ -17,45 +17,60 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Brackeys Game Jam 2022.1
+  title-url: https://itch.io/jam/brackeys-7
+  date: Feb 2022 - Feb 2022
+  subtitle: Game Jam hosted by Brackeys, with the surprise theme 'IT IS NOT REAL'
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Unity 2D
+    - tag: C#
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: Spooky Jam 2021
+  title-url: https://gamejolt.com/@spoopyjam
+  date: Oct 2021 - Nov 2021
+  subtitle: Game Jam sponsored by GameJolt, Beamable and AWS Game Tech
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Unity 2D
+    - tag: C#
+    - tag: Photon PUN
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+- title: Mini jam 87 'Break'
+  title-url: https://itch.io/jam/mini-jam-87-break
+  date: Aug 2021 - Aug 2021
+  subtitle: One of the various Mini jams in itch.io, with the theme 'Break'
+  tags:
+    - tag: Unity 2D
+    - tag: C#
+  timeline-side: right
+
+- title: A jam about time
+  title-url: https://itch.io/jam/a-jam-about-time
+  date: June 2021 - July 2021
+  subtitle: Game Jam hosted by Lone Rabbit about time, with the optional theme 'Escaping fate'
+  tags:
+    - tag: Unity 2D
+    - tag: C#
+  timeline-side: right
+
+- title: SAITC Game Jam 2021
+  title-url: https://itch.io/jam/game-jam-2021-tec
+  date: April 2021 - April 2021
+  subtitle: Game Jam hosted by SAITC, SALAD, SAIMI and Tec de Monterrey, with the surprise theme 'Urban myths & legends'
+  tags:
+    - tag: Unity 2D
+    - tag: C#
+  timeline-side: right
+
+- title: Instituto Tecnológico de Estudios Superiores de Monterrey
+  title-url: https://tec.mx/es/computacion-y-tecnologias-de-informacion/ingeniero-en-tecnologias-computacionales
+  date: Aug 2019 - Present
+  subtitle: Bachelor’s in Computer Science and Technology
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
-  tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Instituto Tecnológico de Estudios Superiores de Monterrey
+  title-url: https://tec.mx/es/prepatec/programas-academicos
+  date: Aug 2016 - June 2019
+  subtitle: IB International Diploma Program (High School)
   timeline-side: left

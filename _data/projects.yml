@@ -13,21 +13,105 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: TECMEX APP
+  descr: "Working on a full stack solution for a simulation of a contact center with Telmex using Amazon Connect and AWS services, producing the interface of the client's voice recognition using Amazon VoiceID, displaying the client's info with React"
+  demo: https://github.com/AmazonConnect-TECCEM-502
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
+    - tag: Amazon AWS
+    - tag: Amazon Connect
+    - tag: Amazon Voice ID
+    - tag: Axios
+    - tag: HTML
+    - tag: JavaScript
+    - tag: React
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Honey, you're dreaming
+  descr: "Game created using Unity 2D during Game Jam 'Brackeys Game Jam 2022.1'."
+  demo: https://arcade-dogo.itch.io/honey-youre-dreaming
   tags:
+    - tag: C#
+    - tag: Unity 2D
+
+- name: Multi-agent Simulation App
+  descr: "Created a 3D multi-agent traffic visualization displayed in Unity 3D Engine, using Mesa AI agent framework in Python."
+  demo: https://github.com/JoanDGG/Modelo-multiagentes
+  tags:
+    - tag: C#
+    - tag: Mesa AI
     - tag: Python
-    - tag: Django
+    - tag: Unity 3D
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: The Greatest Ultimate Candy Challenge (TGUCC)
+  descr: "Game created using Unity 2D during Game Jam 'Spooky Jam 2021'."
+  demo: https://deversogg.itch.io/tgucc
+  tags:
+    - tag: C#
+    - tag: Unity 2D
+
+- name: App Dibujando un Mañana
+  descr: "Developed a mobile app with Android Studio using Kotlin which promotes the activities and donations done by the foundation Dibujando un mañana. Connected the app with a Firebase database and uses the PayPal services."
+  demo: https://github.com/aenco9/dibujandoApp
+  tags:
+    - tag: Android Studio
+    - tag: Google Firebase
+    - tag: Kotlin
+    - tag: PayPal
+
+- name: Break
+  descr: "Game created using Unity 2D during Game Jam 'Mini jam 87: Break'."
+  demo: https://arcade-dogo.itch.io/break
+  tags:
+    - tag: C#
+    - tag: Unity 2D
+
+- name: Time Twist Mayhem
+  descr: "Game created using Unity 2D during Game Jam 'A jam about time'."
+  demo: https://deversogg.itch.io/time-twist-mayhem
+  tags:
+    - tag: C#
+    - tag: Unity 2D
+
+- name: Personal Space
+  descr: "Chill personal game created using Unity 2D in 24 hours."
+  demo: https://deversogg.itch.io/personal-space
+  tags:
+    - tag: C#
+    - tag: Unity 2D
+
+- name: Proyecto Marte
+  descr: "Developed a 2D video game with Unity 2D Engine using C#, with the purpose of spreading STEAM's mission while obtaining user's data through a MySQL database."
+  demo: https://github.com/JoanDGG/Proyecto-Marte
+  demo: https://github.com/JoanDGG/ServidorProyectoMarte
+  tags:
+    - tag: C#
+    - tag: MySQL
+    - tag: PayPal
+    - tag: Unity 2D
+
+- name: Yaoyotl
+  descr: "Game created using Unity 2D during Game Jam 'Game Jam 2021 from Tec de Monterrey'."
+  demo: https://dany-guy.itch.io/yaoyotl
+  tags:
+    - tag: C#
+    - tag: Unity 2D
+
+- name: Space Rocks
+  descr: "Fan game created using GameMaker Studio 2 in honor of the classic game 'Asteroids'."
+  demo: https://deversogg.itch.io/space-rocks
+  tags:
+    - tag: GameMaker Studio 2
+    - tag: GML
+
+- name: Neko game!!
+  descr: "Fan game created using GameMaker Studio 2 in honor of the Windows phone game 'Neko'."
+  demo: https://deversogg.itch.io/neko-game
+  tags:
+    - tag: GameMaker Studio 2
+    - tag: GML
+
+- name: Space Intruder
+  descr: "Fan game created using GameMaker Studio 2 in honor of the classic game 'Space Invaders'."
+  demo: https://deversogg.itch.io/space-intruders
+  tags:
+    - tag: GameMaker Studio 2
+    - tag: GML
