@@ -66,4 +66,26 @@
     </div>
   </a>
   {% endif %}
+
+  {% if site.discord_username != null %}
+  <a class="social-link discord" aria-label="My Discord" target="_blank" rel="noreferrer"
+    href="https://dsc.bio/{{site.discord_username}}">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#discord" | prepend: site.baseurl }}"></use>
+      </svg>
+    </div>
+  </a>
+  {% endif %}
+
+  {% if site.itch-io_username != null %}
+  <a class="social-link itch-io" aria-label="My Itch.io" target="_blank" rel="noreferrer"
+    href="https://{{site.itch-io_username}}/itch.io">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#itch-io" | prepend: site.baseurl }}"></use>
+      </svg>
+    </div>
+  </a>
+  {% endif %}
 </div>
