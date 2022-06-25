@@ -333,10 +333,10 @@ a {
     }
   }
 
-  .itch-io:hover {
+  .itchio:hover {
     .circle {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
-        colorItch-io 1s linear forwards;
+        colorItchio 1s linear forwards;
     }
     .social-svg {
       fill: #fa5c5c;
@@ -387,7 +387,7 @@ a {
     }
   }
   
-  @keyframes colorItch-io {
+  @keyframes colorItchio {
     to {
       stroke: #b23121;
     }
@@ -663,7 +663,7 @@ a {
     }
   }
 
-  .itch-io:hover {
+  .itchio:hover {
     .social-svg {
       fill: #fa5c5c;
     }
