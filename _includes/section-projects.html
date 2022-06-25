@@ -9,7 +9,7 @@
         <p class="project-desc">{{project.descr}}</p>
         {% if project.demo %}
           <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
-            Demo
+            Try it out!
           </a>
         {% endif %}
         {% if project.tags %}
@@ -71,8 +71,9 @@
           <p class="project-desc">{{repository.description}}</p>
           {% if repository.homepage != "" and repository.homepage != nil %}
             <a class="highlight-link" href="{{repository.homepage}}" target="_blank" rel="noreferrer">
-              Demo
+              Try it out!
             </a>
+            </br>
           {% endif %}
           <a class="highlight-link" href="{{repository.html_url}}" target="_blank" rel="noreferrer">
             Github
