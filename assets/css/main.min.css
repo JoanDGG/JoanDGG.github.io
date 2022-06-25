@@ -236,6 +236,12 @@ a:hover {
 .landing-icons .linkedin:hover .social-svg {
   fill: #007bb6;
 }
+.landing-icons .discord:hover .circle {
+  animation: b 1s ease-in-out forwards, e 1s linear forwards;
+}
+.landing-icons .discord:hover .social-svg {
+  fill: #5865F2;
+}
 .landing-icons .itch-io:hover .circle {
   animation: b 1s ease-in-out forwards, e 1s linear forwards;
 }
@@ -501,6 +507,9 @@ a:hover {
 }
 .contact-icons .twitter:hover .social-svg {
   fill: #1da1f2;
+}
+.contact-icons .discord:hover .social-svg {
+  fill: #5865F2;
 }
 .contact-icons .itch-io:hover .social-svg {
   fill: #fa5c5c;

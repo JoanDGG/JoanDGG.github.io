@@ -333,6 +333,16 @@ a {
     }
   }
 
+  .discord:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorDiscord 1s linear forwards;
+    }
+    .social-svg {
+      fill: #5865F2;
+    }
+  }
+
   .itch-io:hover {
     .circle {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
@@ -384,6 +394,12 @@ a {
   @keyframes colorTwitter {
     to {
       stroke: #1da1f2;
+    }
+  }
+  
+  @keyframes colorDiscord {
+    to {
+      stroke: #5865F2;
     }
   }
   
@@ -660,6 +676,12 @@ a {
   .twitter:hover {
     .social-svg {
       fill: #1da1f2;
+    }
+  }
+
+  .discord:hover {
+    .social-svg {
+      fill: #5865F2;
     }
   }
 
