@@ -374,22 +374,22 @@ a {
       stroke: #b23121;
     }
   }
-
+  
   @keyframes colorLinkedin {
     to {
       stroke: #007bb6;
     }
   }
-
+  
   @keyframes colorTwitter {
     to {
       stroke: #1da1f2;
     }
   }
-
+  
   @keyframes colorItch-io {
     to {
-      stroke: #fa5c5c;
+      stroke: #b23121;
     }
   }
 }
@@ -660,6 +660,12 @@ a {
   .twitter:hover {
     .social-svg {
       fill: #1da1f2;
+    }
+  }
+
+  .itch-io:hover {
+    .social-svg {
+      fill: #fa5c5c;
     }
   }
 }
