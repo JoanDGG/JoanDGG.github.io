@@ -7,7 +7,7 @@
 /* Variables */
 
 :root{
-  --primary-color: #a80239;
+  --primary-color: #d60047;
   --secondary-color: #009392;
 }
 
@@ -42,7 +42,7 @@ a:hover {
 }
 .highlight-title {
   color: var(--primary-color);
-  text-shadow: 0.25rem 0.25rem 0.25rem var(--primary-color);
+  text-shadow: 0.15rem 0.15rem 0.35rem #a80239;
 }
 .highlight-link {
   box-shadow: inset 0 -0.125rem 0 var(--primary-color);
