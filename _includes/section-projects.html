@@ -2,24 +2,49 @@
   <h1 class="title"><span>{{site.projects_title}}</span></h1>
   <div class="projects-wrapper">
     {% for project in site.data.projects %}
-      <div class="project neumorphism-card" data-aos="zoom-in-down">
-        <div class="name-link-wrapper">
-          <h3>{{project.name}}</h3>
-        </div>
-        <p class="project-desc">{{project.descr}}</p>
-        {% if project.demo %}
-          <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
-            Try it out!
-          </a>
-        {% endif %}
-        {% if project.tags %}
-          <div class="tag-wrapper">
-            {% for tag in project.tags %}
-              <span class="tag neumorphism-card">{{tag.tag}}</span>
-            {% endfor %}
+      {% if project.image %}
+        <div class="project neumorphism-card" data-aos="zoom-in-down" 
+          style=" background-size: 100%;
+                  background-image: url('../Images/{{project.image}}.png'), linear-gradient(to-bottom, white, black);
+                  background-size: cover;
+                  background-blend-mode: multiply;">
+          <div class="name-link-wrapper">
+            <h3>{{project.name}}</h3>
           </div>
-        {% endif %}
-      </div>
+          <p class="project-desc">{{project.descr}}</p>
+          {% if project.demo %}
+            <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
+              Try it out!
+            </a>
+          {% endif %}
+          {% if project.tags %}
+            <div class="tag-wrapper">
+              {% for tag in project.tags %}
+                <span class="tag neumorphism-card">{{tag.tag}}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      {% else %}
+        <div class="project neumorphism-card" data-aos="zoom-in-down">
+          <div class="name-link-wrapper">
+            <h3>{{project.name}}</h3>
+          </div>
+          <p class="project-desc">{{project.descr}}</p>
+          {% if project.demo %}
+            <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
+              Try it out!
+            </a>
+          {% endif %}
+          {% if project.tags %}
+            <div class="tag-wrapper">
+              {% for tag in project.tags %}
+                <span class="tag neumorphism-card">{{tag.tag}}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
 {% endif %}
