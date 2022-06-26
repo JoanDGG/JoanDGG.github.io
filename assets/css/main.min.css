@@ -324,13 +324,13 @@ a:hover {
   transition: opacity 0.5s;
 }
 #skills div[skill-type="language"] {
-  color: #e84a5f;
+  color: #10a5a5;
 }
 #skills div[skill-type="framework"] {
-  color: #ff847c;
+  color: #3bafd2;
 }
 #skills div[skill-type="tool"] {
-  color: #fecea8;
+  color: #8cebeb;
 }
 #skills div[skill-weight="1"] {
   font-size: 0.75rem;
