@@ -172,7 +172,7 @@ a {
 
   .load :first-child {
     animation-delay: -1.5s;
-    background: $text-color;
+    background: $secondary-color;
   }
 
   .load :nth-child(2) {
@@ -182,7 +182,7 @@ a {
 
   .load :nth-child(3) {
     animation-delay: -0.5s;
-    background: $text-color;
+    background: $secondary-color;
   }
 
   .load :last-child {
