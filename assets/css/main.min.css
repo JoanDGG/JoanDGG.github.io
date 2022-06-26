@@ -22,20 +22,20 @@ p {
   word-spacing: 0.1rem;
 }
 a {
-  color: #ff073a;
+  color: #89142b;
   text-decoration: none;
 }
 a:hover {
   color: #fff;
 }
 .highlight-title {
-  color: #ff073a;
-  text-shadow: 0.25rem 0.25rem 0.25rem #ff073a;
+  color: #89142b;
+  text-shadow: 0.25rem 0.25rem 0.25rem #89142b;
 }
 .highlight-link {
-  box-shadow: inset 0 -0.125rem 0 #ff073a;
+  box-shadow: inset 0 -0.125rem 0 #89142b;
   box-sizing: border-box;
-  color: #ff073a;
+  color: #89142b;
   display: inline-block;
   padding: 0.125rem;
   transition: all 0.2s ease-in-out;
@@ -118,7 +118,7 @@ a:hover {
 }
 #preloader .load :nth-child(2) {
   animation-delay: -1s;
-  background: #ff073a;
+  background: #89142b;
 }
 #preloader .load :nth-child(3) {
   animation-delay: -0.5s;
@@ -150,7 +150,7 @@ a:hover {
   text-align: center;
 }
 .footer a {
-  color: #ff073a;
+  color: #89142b;
 }
 #landing,
 .footer a:focus,
@@ -369,7 +369,7 @@ a:hover {
   padding: 1rem 0;
 }
 .timeline-wrapper .hexagon {
-  background: #ff073a;
+  background: #89142b;
   height: 0.5rem;
   left: 0;
   margin-left: auto;
@@ -390,11 +390,11 @@ a:hover {
   position: absolute;
 }
 .timeline-wrapper .hexagon:before {
-  border-bottom: 0.25rem solid #ff073a;
+  border-bottom: 0.25rem solid #89142b;
   top: -0.25rem;
 }
 .timeline-wrapper .hexagon:after {
-  border-top: 0.25rem solid #ff073a;
+  border-top: 0.25rem solid #89142b;
   bottom: -0.25rem;
 }
 .timeline-wrapper .flag-wrapper {
@@ -413,7 +413,7 @@ a:hover {
 }
 .timeline-wrapper .flag span:after {
   content: "≫";
-  color: #ff073a;
+  color: #89142b;
   position: absolute;
   opacity: 0;
   right: -1rem;
@@ -495,7 +495,7 @@ a:hover {
   font-size: 1.5rem;
 }
 .contact-icons .social-link .social-svg {
-  fill: #ff073a;
+  fill: #89142b;
 }
 .contact-icons .social-link:hover {
   cursor: pointer;
@@ -572,7 +572,7 @@ a:hover {
     letter-spacing: 0.25rem;
   }
   #skills input[type="radio"]:checked + .filter-button {
-    color: #ff073a;
+    color: #89142b;
     font-weight: 600;
     background: linear-gradient(
       150deg,
