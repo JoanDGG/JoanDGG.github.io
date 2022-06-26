@@ -505,7 +505,7 @@ a {
   }
 
   .hexagon {
-    background: $primary-color;
+    background: $secondary-color;
     height: 0.5rem;
     left: 0;
     margin-left: auto;
@@ -528,12 +528,12 @@ a {
   }
 
   .hexagon:before {
-    border-bottom: 0.25rem solid $primary-color;
+    border-bottom: 0.25rem solid $secondary-color;
     top: -0.25rem;
   }
 
   .hexagon:after {
-    border-top: 0.25rem solid $primary-color;
+    border-top: 0.25rem solid $secondary-color;
     bottom: -0.25rem;
   }
 

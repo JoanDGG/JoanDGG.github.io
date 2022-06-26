@@ -387,7 +387,7 @@ a:hover {
   padding: 1rem 0;
 }
 .timeline-wrapper .hexagon {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   height: 0.5rem;
   left: 0;
   margin-left: auto;
@@ -408,11 +408,11 @@ a:hover {
   position: absolute;
 }
 .timeline-wrapper .hexagon:before {
-  border-bottom: 0.25rem solid var(--primary-color);
+  border-bottom: 0.25rem solid var(--secondary-color);
   top: -0.25rem;
 }
 .timeline-wrapper .hexagon:after {
-  border-top: 0.25rem solid var(--primary-color);
+  border-top: 0.25rem solid var(--secondary-color);
   bottom: -0.25rem;
 }
 .timeline-wrapper .flag-wrapper {
