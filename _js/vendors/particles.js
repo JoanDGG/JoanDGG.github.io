@@ -42,7 +42,7 @@ var pJS = function(tag_id, params) {
         image: {
           src: '',
           width: 100,
-          height: 100
+          height: 1125
         }
       },
       opacity: {
