@@ -14,6 +14,7 @@
 #     - tag: Node
 
 - name: TECMEX APP
+  image: Tecmex
   descr: "Working on a full stack solution for a simulation of a contact center with Telmex using Amazon Connect and AWS services, producing the interface of the client's voice recognition using Amazon VoiceID, displaying the client's info with React"
   demo: https://github.com/AmazonConnect-TECCEM-502
   tags:
@@ -26,6 +27,7 @@
     - tag: React
 
 - name: Honey, you're dreaming
+  image: Honey youre dreaming
   descr: "Game created using Unity 2D during Game Jam 'Brackeys Game Jam 2022.1'."
   demo: https://arcade-dogo.itch.io/honey-youre-dreaming
   tags:
@@ -42,6 +44,7 @@
     - tag: Unity 3D
 
 - name: The Greatest Ultimate Candy Challenge (TGUCC)
+  image: TGUCC
   descr: "Game created using Unity 2D during Game Jam 'Spooky Jam 2021'."
   demo: https://deversogg.itch.io/tgucc
   tags:
@@ -58,6 +61,7 @@
     - tag: PayPal
 
 - name: Break
+  image: Break
   descr: "Game created using Unity 2D during Game Jam 'Mini jam 87: Break'."
   demo: https://arcade-dogo.itch.io/break
   tags:
@@ -65,6 +69,7 @@
     - tag: Unity 2D
 
 - name: Time Twist Mayhem
+  image: Time twist mayhem
   descr: "Game created using Unity 2D during Game Jam 'A jam about time'."
   demo: https://deversogg.itch.io/time-twist-mayhem
   tags:
@@ -72,6 +77,7 @@
     - tag: Unity 2D
 
 - name: Personal Space
+  image: Personal space
   descr: "Chill personal game created using Unity 2D in 24 hours."
   demo: https://deversogg.itch.io/personal-space
   tags:
@@ -89,6 +95,7 @@
     - tag: Unity 2D
 
 - name: Yaoyotl
+  image: Yaoyotl
   descr: "Game created using Unity 2D during Game Jam 'Game Jam 2021 from Tec de Monterrey'."
   demo: https://dany-guy.itch.io/yaoyotl
   tags:
@@ -96,6 +103,7 @@
     - tag: Unity 2D
 
 - name: Space Rocks
+  image: Space rocks
   descr: "Fan game created using GameMaker Studio 2 in honor of the classic game 'Asteroids'."
   demo: https://deversogg.itch.io/space-rocks
   tags:
@@ -103,6 +111,7 @@
     - tag: GML
 
 - name: Neko game!!
+  image: Neko game
   descr: "Fan game created using GameMaker Studio 2 in honor of the Windows phone game 'Neko'."
   demo: https://deversogg.itch.io/neko-game
   tags:
@@ -110,6 +119,7 @@
     - tag: GML
 
 - name: Space Intruder
+  image: Space intruders
   descr: "Fan game created using GameMaker Studio 2 in honor of the classic game 'Space Invaders'."
   demo: https://deversogg.itch.io/space-intruders
   tags:
