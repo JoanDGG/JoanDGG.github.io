@@ -16,7 +16,7 @@
 /* General */
 
 html {
-  background: #2b2d2f;
+  background: rgb(11, 11, 12);
   color: #fff;
   font-family: "Ubuntu";
   font-size: 1rem;
@@ -65,7 +65,7 @@ a:hover {
   padding: 0.5rem;
 }
 .layout .card {
-  background: linear-gradient(145deg, hsla(0, 0%, 45%, 0.15) 15%, #2b2d2f 80%);
+  background: linear-gradient(145deg, rgba(85, 85, 85, 0.15) 15%, rgb(24, 24, 27) 80%);
   border-radius: 2rem;
   margin: 3rem 0;
   padding: 1rem 2rem;
@@ -322,7 +322,7 @@ a:hover {
   flex-wrap: wrap;
   -ms-flex-pack: center;
   justify-content: center;
-  line-height: 1.5;
+  line-height: 2.0;
 }
 #skills div {
   padding: 0.2rem;
