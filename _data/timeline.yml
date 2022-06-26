@@ -17,6 +17,12 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: Instituto Tecnológico de Estudios Superiores de Monterrey
+  title-url: https://tec.mx/es/computacion-y-tecnologias-de-informacion/ingeniero-en-tecnologias-computacionales
+  date: Aug 2019 - Present
+  subtitle: Bachelor’s in Computer Science and Technology
+  timeline-side: left
+
 - title: Brackeys Game Jam 2022.1
   title-url: https://itch.io/jam/brackeys-7
   date: Feb 2022 - Feb 2022
@@ -62,12 +68,6 @@
     - tag: Unity 2D
     - tag: C#
   timeline-side: right
-
-- title: Instituto Tecnológico de Estudios Superiores de Monterrey
-  title-url: https://tec.mx/es/computacion-y-tecnologias-de-informacion/ingeniero-en-tecnologias-computacionales
-  date: Aug 2019 - Present
-  subtitle: Bachelor’s in Computer Science and Technology
-  timeline-side: left
 
 - title: Instituto Tecnológico de Estudios Superiores de Monterrey
   title-url: https://tec.mx/es/prepatec/programas-academicos
