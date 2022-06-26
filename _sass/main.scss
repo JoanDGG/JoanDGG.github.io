@@ -2,7 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
-@import "../fonts/sansation/Sansation-Light.ttf";
 
 /* Variables */
 
@@ -62,7 +61,6 @@ a {
 }
 
 .highlight-title {
-  font-family: Sansation-Light;
   color: $primary-color;
   text-shadow: 0.15rem 0.15rem 0.35rem #a80239;
 }
