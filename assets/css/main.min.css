@@ -79,7 +79,7 @@ a:hover {
 }
 .layout .card .description {
   text-align: justify;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 .neumorphism-button {
   background: linear-gradient(
@@ -322,6 +322,7 @@ a:hover {
   flex-wrap: wrap;
   -ms-flex-pack: center;
   justify-content: center;
+  line-height: 1.5;
 }
 #skills div {
   padding: 0.2rem;
@@ -543,7 +544,7 @@ a:hover {
   .layout .card .description,
   .layout .card .subtitle {
     font-size: 1.25rem;
-    line-height: 1.4;
+    line-height: 1.6;
   }
   .landing-title h1 {
     font-size: 3rem;
