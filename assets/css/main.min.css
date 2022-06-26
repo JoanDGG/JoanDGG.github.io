@@ -1,6 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+:root{
+  --primary-color: #a80239;
+  --secondary-color: #009392;
+}
+
 html {
   background: #2b2d2f;
   color: #fff;
@@ -22,26 +28,26 @@ p {
   word-spacing: 0.1rem;
 }
 a {
-  color: #89142b;
+  color: var(--primary-color);
   text-decoration: none;
 }
 a:hover {
   color: #fff;
 }
 .highlight-title {
-  color: #89142b;
-  text-shadow: 0.25rem 0.25rem 0.25rem #89142b;
+  color: var(--primary-color);
+  text-shadow: 0.25rem 0.25rem 0.25rem var(--primary-color);
 }
 .highlight-link {
-  box-shadow: inset 0 -0.125rem 0 #89142b;
+  box-shadow: inset 0 -0.125rem 0 var(--primary-color);
   box-sizing: border-box;
-  color: #89142b;
+  color: var(--primary-color);
   display: inline-block;
   padding: 0.125rem;
   transition: all 0.2s ease-in-out;
 }
 .highlight-link:hover {
-  box-shadow: inset 0 -2rem 0 0 #ff073a;
+  box-shadow: inset 0 -2rem 0 0 var(--primary-color);
   color: #fff;
 }
 .layout {
@@ -118,14 +124,14 @@ a:hover {
 }
 #preloader .load :nth-child(2) {
   animation-delay: -1s;
-  background: #89142b;
+  background: var(--primary-color);
 }
 #preloader .load :nth-child(3) {
   animation-delay: -0.5s;
   background: #fff;
 }
 #preloader .load :last-child {
-  background: #ff073a;
+  background: var(--primary-color);
 }
 @keyframes a {
   0%,
@@ -150,7 +156,7 @@ a:hover {
   text-align: center;
 }
 .footer a {
-  color: #89142b;
+  color: var(--primary-color);
 }
 #landing,
 .footer a:focus,
@@ -369,7 +375,7 @@ a:hover {
   padding: 1rem 0;
 }
 .timeline-wrapper .hexagon {
-  background: #89142b;
+  background: var(--primary-color);
   height: 0.5rem;
   left: 0;
   margin-left: auto;
@@ -390,11 +396,11 @@ a:hover {
   position: absolute;
 }
 .timeline-wrapper .hexagon:before {
-  border-bottom: 0.25rem solid #89142b;
+  border-bottom: 0.25rem solid var(--primary-color);
   top: -0.25rem;
 }
 .timeline-wrapper .hexagon:after {
-  border-top: 0.25rem solid #89142b;
+  border-top: 0.25rem solid var(--primary-color);
   bottom: -0.25rem;
 }
 .timeline-wrapper .flag-wrapper {
@@ -413,7 +419,7 @@ a:hover {
 }
 .timeline-wrapper .flag span:after {
   content: "≫";
-  color: #89142b;
+  color: var(--primary-color);
   position: absolute;
   opacity: 0;
   right: -1rem;
@@ -495,7 +501,7 @@ a:hover {
   font-size: 1.5rem;
 }
 .contact-icons .social-link .social-svg {
-  fill: #89142b;
+  fill: var(--primary-color);
 }
 .contact-icons .social-link:hover {
   cursor: pointer;
@@ -572,7 +578,7 @@ a:hover {
     letter-spacing: 0.25rem;
   }
   #skills input[type="radio"]:checked + .filter-button {
-    color: #89142b;
+    color: var(--primary-color);
     font-weight: 600;
     background: linear-gradient(
       150deg,
