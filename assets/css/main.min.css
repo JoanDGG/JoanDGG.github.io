@@ -1,7 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+/* 
+  Variables
 
+  primary-color: #a80239;
+  secondary-color: #009392;
+*/
 :root{
   --primary-color: #a80239;
   --secondary-color: #009392;
@@ -35,7 +40,7 @@ a:hover {
   color: #fff;
 }
 .highlight-title {
-  color: var(--primary-color);
+  color: #a80239;
   text-shadow: 0.25rem 0.25rem 0.25rem var(--primary-color);
 }
 .highlight-link {
