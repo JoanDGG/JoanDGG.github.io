@@ -602,6 +602,7 @@ a {
   border-radius: 1rem;
   margin: 1rem 0;
   padding: 0.5rem 1rem;
+  background-image: url('../Images/{{project.image}}.png'), linear-gradient(to-bottom, white, black);
 }
 
 .project .name-link-wrapper {
