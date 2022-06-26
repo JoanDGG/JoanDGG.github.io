@@ -431,7 +431,7 @@ a:hover {
 }
 .timeline-wrapper .flag span:after {
   content: "≫";
-  color: var(--primary-color);
+  color: var(--secondary-color);
   position: absolute;
   opacity: 0;
   right: -1rem;
@@ -595,7 +595,7 @@ a:hover {
     letter-spacing: 0.25rem;
   }
   #skills input[type="radio"]:checked + .filter-button {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: 600;
     background: linear-gradient(
       150deg,
