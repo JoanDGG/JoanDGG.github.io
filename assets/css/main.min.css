@@ -11,12 +11,13 @@
 :root{
   --primary-color: #d60047;
   --secondary-color: #009392;
+  --background-color: rgb(11, 11, 12); 
 }
 
 /* General */
 
 html {
-  background: rgb(11, 11, 12);
+  background: var(--background-color);
   color: #fff;
   font-family: "Ubuntu";
   font-size: 1rem;
@@ -65,7 +66,7 @@ a:hover {
   padding: 0.5rem;
 }
 .layout .card {
-  background: linear-gradient(145deg, rgba(85, 85, 85, 0.15) 15%, rgb(24, 24, 27) 80%);
+  background: linear-gradient(145deg, rgba(85, 85, 85, 0.15) 15%, rgb(39, 39, 44) 80%);
   border-radius: 2rem;
   margin: 3rem 0;
   padding: 1rem 2rem;
@@ -99,7 +100,7 @@ a:hover {
 #preloader {
   -ms-flex-align: center;
   align-items: center;
-  background: #2b2d2f;
+  background: var(--background-color);
   display: -ms-flexbox;
   display: flex;
   height: 100%;
@@ -159,7 +160,7 @@ a:hover {
   }
 }
 .footer {
-  background: #2b2d2f;
+  background: var(--background-color);
   color: #fff;
   margin: 0.5rem;
   padding: 1rem;
@@ -171,7 +172,7 @@ a:hover {
 #landing,
 .footer a:focus,
 .footer a:hover {
-  background: #2b2d2f;
+  background: var(--background-color);
   color: #fff;
 }
 #landing {
@@ -419,7 +420,7 @@ a:hover {
   text-align: center;
 }
 .timeline-wrapper .flag {
-  background: #2b2d2f;
+  background: var(--background-color);
   border-radius: 0.5rem;
   font-weight: 600;
   padding: 0.25rem 0.5rem;
@@ -451,13 +452,13 @@ a:hover {
   margin-top: 0.3rem;
 }
 .timeline-wrapper .time {
-  background: #2b2d2f;
+  background: var(--background-color);
   border-radius: 0.5rem;
   display: inline-block;
   padding: 0.6rem;
 }
 .timeline-wrapper .desc {
-  background: #2b2d2f;
+  background: var(--background-color);
   border-radius: 1rem;
   margin: 1em 0 0;
   padding: 0.75em;
