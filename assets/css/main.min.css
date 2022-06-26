@@ -3,6 +3,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+@import "../fonts/sansation/Sansation-Light.ttf";
 
 /* Variables */
 
@@ -41,6 +42,7 @@ a:hover {
   color: #fff;
 }
 .highlight-title {
+  font-family: Sansation-Light;
   color: var(--primary-color);
   text-shadow: 0.15rem 0.15rem 0.35rem #a80239;
 }
