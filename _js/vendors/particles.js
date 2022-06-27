@@ -81,7 +81,7 @@ var pJS = function(tag_id, params) {
         out_mode: 'out',
         bounce: false,
         attract: {
-          enable: false,
+          enable: true,
           rotateX: 3000,
           rotateY: 3000
         }
@@ -89,7 +89,7 @@ var pJS = function(tag_id, params) {
       array: []
     },
     interactivity: {
-      detect_on: 'canvas',
+      detect_on: 'window',
       events: {
         onhover: {
           enable: true,
@@ -97,7 +97,7 @@ var pJS = function(tag_id, params) {
         },
         onclick: {
           enable: true,
-          mode: 'push'
+          mode: 'repulse'
         },
         resize: true
       },
