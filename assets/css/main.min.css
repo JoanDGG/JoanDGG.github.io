@@ -94,16 +94,8 @@ a:hover {
 .neumorphism-card {
   box-shadow: inset 2px 2px 4px #000, inset -2px -2px 4px #636363;
 }
-.neumorphism-card .image :hover{
-  background: linear-gradient(to bottom, black, rgba(255,255,255,0)), url('../Images/{{project.image}}.png') no-repeat fixed; 
-  background-position-x: right;
-}
 .neumorphism-card-big {
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
-}
-.neumorphism-card-big .image :hover{
-  background: linear-gradient(to bottom, black, rgba(255,255,255,0)), url('../Images/{{project.image}}.png') no-repeat fixed; 
-  background-position-x: right;
 }
 #preloader {
   -ms-flex-align: center;
