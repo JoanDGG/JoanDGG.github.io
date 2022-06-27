@@ -43,6 +43,9 @@ a {
 a:hover {
   color: #fff;
 }
+.content{
+  background: var(--background-color);
+}
 .highlight-title {
   font-family: "Montserrat";
   color: var(--primary-color);
