@@ -66,8 +66,9 @@ a:hover {
   padding: 0.5rem;
 }
 .logo{
-  display: block;
-  margin: 0 auto;
+  position: absolute;
+  top: 1px;
+  left: 350px;
   opacity: 0.5;
 }
 .layout .card {
