@@ -469,6 +469,10 @@ a:hover {
   margin: 1rem 0;
   padding: 0.5rem 1rem;
 }
+.project :hover{
+  background: linear-gradient(to bottom, black, rgba(255,255,255,0)), url('../Images/{{project.image}}.png') no-repeat fixed; 
+  background-position-x: right;
+}
 .project .name-link-wrapper {
   display: -ms-flexbox;
   display: flex;

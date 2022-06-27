@@ -11,7 +11,7 @@ baseurl: ""
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
-username: Deverso GG
+username: DEVERSO GG
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
 typing_text: Game Designer & Developer 🎮
@@ -83,7 +83,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Hi! This is my contact info, I'm always open to meet new people and collaborate in exciting new projects, or just chat and do gamer stuff! <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.
+contact_description: Hi! This is my contact info, I'm always open to meet new people and collaborate in exciting new projects, or just chat and do gamer stuff!.
 
 # GITHUB-METADATA
 # Set this to your forked repository
