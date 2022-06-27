@@ -64,11 +64,10 @@ a:hover {
   margin: 0.5rem;
   max-width: 75em;
   padding: 0.5rem;
-  display: flex;
-  justify-content: center;
 }
 .logo{
-  width: 50%;
+  display: block;
+  margin: 0 auto;
   opacity: 0.5;
 }
 .layout .card {
