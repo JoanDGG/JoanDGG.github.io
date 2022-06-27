@@ -9,9 +9,9 @@
   <title>{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/Images/Deverso-Logo-Blank.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/Images/Deverso-Logo-Blank.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/Images/Deverso-Logo-Blank.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/Images/Logo-Deverso.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/Images/Logo-Deverso.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/Images/Logo-Deverso.png" | prepend: site.baseurl }}">
   <link rel="manifest" href="{{ "/assets/favicon/site.webmanifest" | prepend: site.baseurl }}">
 
   <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
@@ -19,14 +19,6 @@
 
   <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
-  <style>
-    body {
-      background-image: url('/Images/Deverso-Logo-Blank.png');
-      background-position-x: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
-  </style>
 </head>
 
 <body>
@@ -38,34 +30,40 @@
       <hr />
     </div>
   </div>
-  {% include landing-page.html %}
-  <div class="layout">
-    {%if site.show_aboutme_card %}
+  <div class="content" style="
+    background-image: url('/Images/Logo-Deverso.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;">
+    {% include landing-page.html %}
+    <div class="layout">
+      {%if site.show_aboutme_card %}
+        <section class="card neumorphism-card-big">
+          {% include section-aboutme.html %}
+        </section>
+      {% endif %}
+      {%if site.show_skills_card %}
+        <section class="card neumorphism-card-big">
+          {% include section-skills.html %}
+        </section>
+      {% endif %}
+      {%if site.show_timeline_card %}
+        <section class="card neumorphism-card-big">
+          {% include section-timeline.html %}
+        </section>
+      {% endif %}
+      {%if site.show_projects_card %}
+        <section class="card neumorphism-card-big">
+          {% include section-projects.html %}
+        </section>
+      {% endif %}
+      {%if site.show_contact_card %}
       <section class="card neumorphism-card-big">
-        {% include section-aboutme.html %}
+        {% include section-contact.html %}
       </section>
-    {% endif %}
-    {%if site.show_skills_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-skills.html %}
-      </section>
-    {% endif %}
-    {%if site.show_timeline_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-timeline.html %}
-      </section>
-    {% endif %}
-    {%if site.show_projects_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-projects.html %}
-      </section>
-    {% endif %}
-    {%if site.show_contact_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-contact.html %}
-    </section>
-    {% endif %}
+      {% endif %}
+    </div>
+    {% include footer.html %}
   </div>
-  {% include footer.html %}
 </body>
 </html>
