@@ -30,40 +30,35 @@
       <hr />
     </div>
   </div>
-  <div class="content" style="
-    background-image: url('/Images/Logo-Deverso.png');
-    background-position-x: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;">
-    {% include landing-page.html %}
-    <div class="layout">
-      {%if site.show_aboutme_card %}
-        <section class="card neumorphism-card-big">
-          {% include section-aboutme.html %}
-        </section>
-      {% endif %}
-      {%if site.show_skills_card %}
-        <section class="card neumorphism-card-big">
-          {% include section-skills.html %}
-        </section>
-      {% endif %}
-      {%if site.show_timeline_card %}
-        <section class="card neumorphism-card-big">
-          {% include section-timeline.html %}
-        </section>
-      {% endif %}
-      {%if site.show_projects_card %}
-        <section class="card neumorphism-card-big">
-          {% include section-projects.html %}
-        </section>
-      {% endif %}
-      {%if site.show_contact_card %}
+  {% include landing-page.html %}
+  <div class="layout">
+    <img class="logo" src="/Images/Logo-Deverso.png" />
+    {%if site.show_aboutme_card %}
       <section class="card neumorphism-card-big">
-        {% include section-contact.html %}
+        {% include section-aboutme.html %}
       </section>
-      {% endif %}
-    </div>
-    {% include footer.html %}
+    {% endif %}
+    {%if site.show_skills_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-skills.html %}
+      </section>
+    {% endif %}
+    {%if site.show_timeline_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-timeline.html %}
+      </section>
+    {% endif %}
+    {%if site.show_projects_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-projects.html %}
+      </section>
+    {% endif %}
+    {%if site.show_contact_card %}
+    <section class="card neumorphism-card-big">
+      {% include section-contact.html %}
+    </section>
+    {% endif %}
   </div>
+  {% include footer.html %}
 </body>
 </html>

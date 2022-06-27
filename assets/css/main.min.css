@@ -43,9 +43,6 @@ a {
 a:hover {
   color: #fff;
 }
-.content{
-  background: var(--background-color);
-}
 .highlight-title {
   font-family: "Montserrat";
   color: var(--primary-color);
@@ -67,6 +64,12 @@ a:hover {
   margin: 0.5rem;
   max-width: 75em;
   padding: 0.5rem;
+}
+.logo{
+  position: absolute;
+  top: 420px;
+  left: 20px;
+  opacity: 0.5;
 }
 .layout .card {
   background: linear-gradient(145deg, rgba(85, 85, 85, 0.15) 15%, rgb(39, 39, 44) 80%);
