@@ -105,6 +105,7 @@ projects:
     forks: false
     # projects: A list of the repository names you want to exclude from the listing.
     projects:
+    - kodeday-git
     # - repo1-to-be-excluded
     # - repo2-to-be-excluded
 
