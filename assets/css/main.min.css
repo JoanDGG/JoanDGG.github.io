@@ -65,11 +65,6 @@ a:hover {
   max-width: 75em;
   padding: 0.5rem;
 }
-.logo{
-  float: right;
-  margin-right: 15px;
-  size: 50%;
-}
 .layout .card {
   background: linear-gradient(145deg, rgba(85, 85, 85, 0.15) 15%, rgb(39, 39, 44) 80%);
   border-radius: 2rem;
@@ -86,6 +81,11 @@ a:hover {
 .layout .card .description {
   text-align: justify;
   line-height: 1.6;
+}
+.layout .card .logo {
+  float: right;
+  margin-right: 15px;
+  width: 25%
 }
 .neumorphism-button {
   background: linear-gradient(
