@@ -87,6 +87,20 @@ a:hover {
   margin-right: 15px;
   width: 25%
 }
+.video {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+}
+.video iframe, .video object, .video embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
 .neumorphism-button {
   background: linear-gradient(
     145deg,
