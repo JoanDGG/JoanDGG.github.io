@@ -51,7 +51,7 @@ Working on a full stack solution for a contact center using `Amazon Connect` and
 ![Break](./Images/Break.png)
 *	[“Break”](https://arcade-dogo.itch.io/break) Game created using `Unity 2D` during Game Jam ‘Mini jam 87: Break’ (2021)
 
-![Time Twist Mayhem](./Images/Time%20twist%20mayhem.jpg)
+![Time Twist Mayhem](./Images/Time%20twist%20mayhem.png)
 *	[“Time Twist Mayhem”](https://deversogg.itch.io/time-twist-mayhem) Game created using `Unity 2D` during Game Jam ‘A jam about time’ (2021)
 
 ![Personal space](./Images/Personal%20space.png)
