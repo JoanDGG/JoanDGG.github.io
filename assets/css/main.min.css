@@ -66,12 +66,9 @@ a:hover {
   padding: 0.5rem;
 }
 .logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  
-  opacity: 0.5;
+  float: right;
+  margin-right: 15px;
+  size: 50%;
 }
 .layout .card {
   background: linear-gradient(145deg, rgba(85, 85, 85, 0.15) 15%, rgb(39, 39, 44) 80%);
