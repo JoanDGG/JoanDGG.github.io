@@ -88,6 +88,22 @@
         </a>
       {% endif %}
 
+      {% if site.linktree_username != null %}
+        <a class="social-link linktree" aria-label="My Linktree" target="_blank"
+          rel="noreferrer" href="https://linktr.ee/{{site.linktree_username}}"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/solid.svg#link" | prepend: site.baseurl }}"></use>
+            </svg>
+          </div>
+          <span class="label">Linktree</span>
+        </a>
+      {% endif %}
+
       {% if site.twitter_username != null %}
         <a class="social-link twitter" aria-label="My Twitter" target="_blank"
           rel="noreferrer" href="https://twitter.com/{{site.twitter_username}}"

@@ -11,6 +11,15 @@
 - name: Bash
   weight: 4
 
+- name: PSP
+  weight: 4
+
+- name: TSP
+  weight: 4
+
+- name: Testing
+  weight: 4
+
 - name: Scrum
   weight: 3
 
@@ -18,6 +27,9 @@
   weight: 2
 
 - name: VS Code
+  weight: 4
+
+- name: Plastic SCM
   weight: 3
 
 - name: Postman
@@ -39,4 +51,10 @@
   weight: 2
 
 - name: Firebase
+  weight: 2
+
+- name: Android Studio
+  weight: 1
+
+- name: Blender
   weight: 1

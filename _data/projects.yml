@@ -13,6 +13,25 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: Neo Dance
+  image: NeoDance
+  descr: "Working as lead game developer & programmer in a rhythm-based action game using Unity 2D, implementing mechanics, visual effects, music analysis & recording system, testing and an online gameplay with Firebase"
+  demo: https://catbotgames.itch.io/nneo-dance-cyberpunk
+  tags:
+    - tag: Unity 2D
+    - tag: Firebase
+    - tag: C#
+
+- name: Planet Crash
+  image: PlanetCrash
+  descr: "Worked as a game developer and game designer in a 3D platformer-shooter game using Unity 3D and exploring Unity’s tools like URP and Pro-Builder. This project was supervised by Tagwizz Studio"
+  demo: https://foundtexas.itch.io/planet-crash
+  tags:
+    - tag: Unity 3D
+    - tag: Pro-builder
+    - tag: URP
+    - tag: C#
+
 - name: TECMEX APP
   image: Tecmex
   descr: "Working on a full stack solution for a simulation of a contact center with Telmex using Amazon Connect and AWS services, producing the interface of the client's voice recognition using Amazon VoiceID, displaying the client's info with React"
@@ -26,10 +45,10 @@
     - tag: JavaScript
     - tag: React
 
-- name: Honey, you're dreaming
-  image: Honey youre dreaming
-  descr: "Game created using Unity 2D during Game Jam 'Brackeys Game Jam 2022.1'."
-  demo: https://arcade-dogo.itch.io/honey-youre-dreaming
+- name: Last Santa Standing
+  image: MultiSanta
+  descr: "Game created during Game Jam 'Cozy Winter Jam 2022'"
+  demo: https://arcade-dogo.itch.io/lss
   tags:
     - tag: C#
     - tag: Unity 2D
@@ -43,10 +62,10 @@
     - tag: Python
     - tag: Unity 3D
 
-- name: The Greatest Ultimate Candy Challenge (TGUCC)
-  image: TGUCC
-  descr: "Game created using Unity 2D during Game Jam 'Spooky Jam 2021'."
-  demo: https://deversogg.itch.io/tgucc
+- name: Honey, you're dreaming
+  image: Honey youre dreaming
+  descr: "Game created using Unity 2D during Game Jam 'Brackeys Game Jam 2022.1'."
+  demo: https://arcade-dogo.itch.io/honey-youre-dreaming
   tags:
     - tag: C#
     - tag: Unity 2D
@@ -59,6 +78,14 @@
     - tag: Google Firebase
     - tag: Kotlin
     - tag: PayPal
+
+- name: The Greatest Ultimate Candy Challenge (TGUCC)
+  image: TGUCC
+  descr: "Game created using Unity 2D during Game Jam 'Spooky Jam 2021'."
+  demo: https://deversogg.itch.io/tgucc
+  tags:
+    - tag: C#
+    - tag: Unity 2D
 
 - name: Break
   image: Break

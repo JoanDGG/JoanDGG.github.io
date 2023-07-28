@@ -24,6 +24,7 @@ github_username: JoanDGG
 codepen_username: 
 dev_username: 
 linkedin_username: joan-daniel-guerrero-garcia
+linktree_username: joandgg
 twitter_username: 
 discord_username: JoanGG
 itch-io_username: deversogg
@@ -36,7 +37,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Hi, my name is Joan, working passionately as a indie game developer with the name of "Deverso GG". I'm a software engineer currently studying Computer Science and Technology, specialized on video game design and development, mainly working on Unity 2D or 3D. I've worked my project management skills with a logical oriented mindset over this 3 years, proving my solutions effective when solving problems or creating innovative solutions either on personal projects or working in a team. I always have some project to work on or big plans for the future, I'm happy to get to know you and possibly work together!
+about_me_description: Hi, my name is Joan, working passionately as a indie game developer with the name of <span class="highlight-title">Deverso GG</span>. I'm a software engineer currently studying Computer Science and Technology, specialized on video game design and development, mainly working on Unity 2D or 3D. I've worked my project management skills with a logical oriented mindset over this 3 years, proving my solutions effective when solving problems or creating innovative solutions either on personal projects or working in a team. I always have some project to work on or big plans for the future, I'm happy to get to know you and possibly work together!
 
 # SKILLS SECTION
 # show_skills_card:
@@ -55,7 +56,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://github.com/JoanDGG/JoanDGG.github.io/blob/main/Documents/CV%20Joan%20Daniel%20Guerrero%20García.pdf
+cv_download_link: https://docs.google.com/document/d/1ME9OFAHYIfc4ns-e9VJ0JiOJaHRI3Kwq/edit?usp=sharing&ouid=107575643882741543212&rtpof=true&sd=true
 
 # PROJECTS SECTION
 # show_projects_card:

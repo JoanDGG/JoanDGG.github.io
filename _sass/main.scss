@@ -15,6 +15,7 @@ $font-family-numbers: "Ubuntu";
 $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-weight-strong: 600;
+$font-weight-strong-2: 100;
 $text-color: #fff !default;
 $bg-color: rgb(11, 11, 12);
 $card-bg-color: linear-gradient(
@@ -45,6 +46,7 @@ body {
 
 h1 {
   font-size: $font-size-h1;
+  color: $primary-color;
   font-weight: $font-weight-strong;
   line-height: 2rem;
 }
@@ -65,6 +67,7 @@ a {
 .highlight-title {
   font-family: "Montserrat";
   color: $primary-color;
+  font-weight: $font-weight-strong-2;
   text-shadow: 0.15rem 0.15rem 0.35rem #a80239;
 }
 
@@ -99,6 +102,7 @@ a {
 
 .layout .card .title {
   text-align: center;
+  color: $primary-color;
   position: relative;
 }
 
@@ -349,6 +353,16 @@ a {
     }
   }
 
+  .linktree:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorLinktree 1s linear forwards;
+    }
+    .social-svg {
+      fill: #49E463;
+    }
+  }
+
   .twitter:hover {
     .circle {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
@@ -417,6 +431,12 @@ a {
     }
   }
   
+  @keyframes colorLinktree {
+    to {
+      stroke: #49E463;
+    }
+  }
+  
   @keyframes colorTwitter {
     to {
       stroke: #1da1f2;
@@ -447,6 +467,10 @@ a {
   div {
     padding: 0.2rem;
     transition: opacity 0.5s;
+  }
+
+  div[skill-type="programming"] {
+    color: #3dbc74;
   }
 
   div[skill-type="language"] {
@@ -699,6 +723,12 @@ a {
     }
   }
 
+  .linktree:hover {
+    .social-svg {
+      fill: #49E463;
+    }
+  }
+
   .twitter:hover {
     .social-svg {
       fill: #1da1f2;
@@ -804,17 +834,26 @@ a {
     }
 
     input[id="language"]:checked ~ div[skill-type="framework"],
+    input[id="language"]:checked ~ div[skill-type="programming"],
     input[id="language"]:checked ~ div[skill-type="tool"] {
       @include filter-out;
     }
 
     input[id="framework"]:checked ~ div[skill-type="language"],
+    input[id="framework"]:checked ~ div[skill-type="programming"],
     input[id="framework"]:checked ~ div[skill-type="tool"] {
       @include filter-out;
     }
 
     input[id="tool"]:checked ~ div[skill-type="language"],
+    input[id="tool"]:checked ~ div[skill-type="programming"],
     input[id="tool"]:checked ~ div[skill-type="framework"] {
+      @include filter-out;
+    }
+
+    input[id="programming"]:checked ~ div[skill-type="tool"],
+    input[id="programming"]:checked ~ div[skill-type="language"],
+    input[id="programming"]:checked ~ div[skill-type="framework"] {
       @include filter-out;
     }
   }
