@@ -17,10 +17,16 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: Tech University
+  title-url: https://www.techtitute.com/mx/informatica/grand-master/grand-master-realidad-virtual-vision-artificial
+  date: June 2023 - today
+  subtitle: Taking a Grand Master in Virtual Reality and Artificial Vision 
+  timeline-side: right
+
 - title: Instituto Tecnológico de Estudios Superiores de Monterrey
   title-url: https://tec.mx/es/computacion-y-tecnologias-de-informacion/ingeniero-en-tecnologias-computacionales
-  date: Aug 2019 - Present
-  subtitle: Bachelor's in Computer Science and Technology
+  date: Aug 2019 - June 2023
+  subtitle: Finished my Bachelor's in Computer Science and Technology, specialized in Videogame Development
   timeline-side: left
 
 - title: Cozy Winter Jam 2022
