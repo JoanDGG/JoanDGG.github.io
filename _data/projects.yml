@@ -13,6 +13,23 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: Yaoyotl
+  image: Yaoyotl
+  descr: "Game created during Game Jam 'Celebrating LATINX HERITAGE MONTH!'"
+  demo: https://arcade-dogo.itch.io/yaoyotl
+  tags:
+    - tag: Unity 3D
+    - tag: C#
+
+- name: Deep Cognitive Artist
+  image: NeoDance
+  descr: "Implemented a VR and mobile art cognitive project using Unity 3D and Oculus Quest 2 mixing an immersive experience with a 3D generated world with AI as well as interactions with the user such as painting, as well as visual interactables with the real world and real-time data storage with Firebase"
+  tags:
+    - tag: Unity 3D
+    - tag: Oculus Quest 2
+    - tag: Firebase
+    - tag: C#
+
 - name: Neo Dance
   image: NeoDance
   descr: "Working as lead game developer & programmer in a rhythm-based action game using Unity 2D, implementing mechanics, visual effects, music analysis & recording system, testing and an online gameplay with Firebase"
@@ -119,14 +136,6 @@
     - tag: C#
     - tag: MySQL
     - tag: PayPal
-    - tag: Unity 2D
-
-- name: Yaoyotl
-  image: Yaoyotl
-  descr: "Game created using Unity 2D during Game Jam 'Game Jam 2021 from Tec de Monterrey'."
-  demo: https://dany-guy.itch.io/yaoyotl
-  tags:
-    - tag: C#
     - tag: Unity 2D
 
 - name: Space Rocks
