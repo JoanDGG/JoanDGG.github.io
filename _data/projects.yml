@@ -22,12 +22,13 @@
     - tag: C#
 
 - name: Deep Cognitive Artist
-  image: NeoDance
+  image: DeepCognitiveArtist
   descr: "Implemented a VR and mobile art cognitive project using Unity 3D and Oculus Quest 2 mixing an immersive experience with a 3D generated world with AI as well as interactions with the user such as painting, as well as visual interactables with the real world and real-time data storage with Firebase"
   tags:
     - tag: Unity 3D
     - tag: Oculus Quest 2
     - tag: Firebase
+    - tag: Imgur
     - tag: C#
 
 - name: Neo Dance
