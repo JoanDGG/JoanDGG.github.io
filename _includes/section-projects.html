@@ -8,24 +8,23 @@
             <h3>{{project.name}}</h3>
           </div>
           <p class="project-desc">
-          {% if project.demo %}
+            {% if project.itch %}
+              <iframe frameborder="0" src="{{project.itch}}" width="552" height="167">
+                <a href="{{project.demo}}">
+                  Play on itch.io!
+                </a>
+              </iframe>
+            {% elif project.demo %}
             <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
               Try it out!
             </a>
-          {% endif %}
-          {% if project.itch %}
-            <iframe frameborder="0" src="https://itch.io/embed/2639837">
-              <a href="https://arcade-dogo.itch.io/vaqueritos">
-                Vaqueritos by arcade dogo
-              </a>
-            </iframe>
-          {% endif %}
+            {% endif %}
           {% if project.tags %}
-            <div class="tag-wrapper">
-              {% for tag in project.tags %}
-                <span class="tag neumorphism-card">{{tag.tag}}</span>
-              {% endfor %}
-            </div>
+          <div class="tag-wrapper">
+            {% for tag in project.tags %}
+            <span class="tag neumorphism-card">{{tag.tag}}</span>
+            {% endfor %}
+          </div>
           {% endif %}
         </div>
     {% else %}

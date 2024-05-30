@@ -17,7 +17,7 @@
   image: Vaqueritos
   descr: "Game created for the incubator Pixel Borregos from Tecnológico de Monterrey"
   demo: https://arcade-dogo.itch.io/vaqueritos
-  itch: true
+  itch: https://itch.io/embed/2639837
   tags:
     - tag: Unity 2D
     - tag: Firebase
