@@ -8,10 +8,11 @@
             <h3>{{project.name}}</h3>
           </div>
           <p class="project-desc">
+            <div><h5>{{project.descr}}</h5></div>
             {% if project.itch %}
               <iframe frameborder="0" src="{{project.itch}}" width="552" height="167">
                 <a href="{{project.demo}}">
-                  {{project.itchTxt}}
+                  Play on itch.io!
                 </a>
               </iframe>
             {% elsif project.demo %}
