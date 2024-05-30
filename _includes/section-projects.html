@@ -13,6 +13,13 @@
               Try it out!
             </a>
           {% endif %}
+          {% if project.itch %}
+            <iframe frameborder="0" src="https://itch.io/embed/2639837" width="552" height="167">
+              <a href="https://arcade-dogo.itch.io/vaqueritos">
+                Vaqueritos by arcade dogo
+              </a>
+            </iframe>
+          {% endif %}
           {% if project.tags %}
             <div class="tag-wrapper">
               {% for tag in project.tags %}

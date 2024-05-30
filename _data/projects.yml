@@ -13,12 +13,25 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: Vaqueritos
+  image: Vaqueritos
+  descr: "Game created for the incubator Pixel Borregos from Tecnológico de Monterrey"
+  demo: https://arcade-dogo.itch.io/vaqueritos
+  itch: true
+  tags:
+    - tag: Unity 2D
+    - tag: Firebase
+    - tag: Photon PUN2
+    - tag: C#
+
 - name: Yaoyotl
   image: Yaoyotl
-  descr: "Game created during Game Jam 'Celebrating LATINX HERITAGE MONTH!'"
+  descr: "Game created during Game Jam 'Celebrating LATINX HERITAGE MONTH!"
   demo: https://arcade-dogo.itch.io/yaoyotl
   tags:
     - tag: Unity 3D
+    - tag: Firebase
+    - tag: Photon PUN2
     - tag: C#
 
 - name: Deep Cognitive Artist

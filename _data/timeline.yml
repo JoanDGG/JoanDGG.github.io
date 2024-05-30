@@ -18,14 +18,32 @@
 #   timeline-side: right
 
 - title: Institute of Advanced Materials for Sustainable Manufacturing
+  date: Feb 2024 - to date
+  subtitle: Working in a generative content algorithm for a VR project for gamification and training
+  tags:
+    - tag: Unity 3D
+    - tag: C#
+    - tag: Omniverse
+    - tag: MetaQuest3
+    - tag: OpenAI
+  timeline-side: left
+
+- title: Institute of Advanced Materials for Sustainable Manufacturing
   date: Aug 2023 - Oct 2023
   subtitle: Worked in the VR project Deep Cognitive Artist for Fondo Creativo 2023
+  tags:
+    - tag: Unity 3D
+    - tag: C#
+    - tag: MetaQuest2
   timeline-side: right
 
 - title: Word Games
   title-url: https://store.steampowered.com/app/2559020/Neo_Dance/
   date: Oct 2022 - Oct 2023
-  subtitle: Worked as lead game developer & programmer for the videogame Neo Dance  
+  subtitle: Worked as lead game developer & programmer for the videogame Neo Dance 
+  tags:
+    - tag: Unity 2D
+    - tag: C# 
   timeline-side: left
 
 - title: Tech University
