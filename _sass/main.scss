@@ -24,7 +24,9 @@ $card-bg-color: linear-gradient(
   rgb(39, 39, 44) 80%
 );
 $primary-color: #d60047;
+$primary-button-color: #ff2970;
 $secondary-color: #009392;
+$secondary-button-color: #00ebeb;
 
 /* General */
 
@@ -72,15 +74,15 @@ a {
 }
 
 .highlight-link {
-  box-shadow: inset 0 -0.125rem 0 $primary-color;
+  box-shadow: inset 0 -0.125rem 0 $primary-button-color;
   box-sizing: border-box;
-  color: $primary-color;
+  color: $primary-button-color;
   display: inline-block;
   padding: 0.125rem 0.125rem;
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    box-shadow: inset 0 -2rem 0 0 $primary-color;
+    box-shadow: inset 0 -2rem 0 0 $primary-button-color;
     color: $text-color;
   }
 }
@@ -828,7 +830,7 @@ a {
     }
 
     input[type="radio"]:checked + .filter-button {
-      color: $secondary-color;
+      color: $secondary-button-color;
       font-weight: $font-weight-strong;
       @include neumorphism-button-pressed();
     }
