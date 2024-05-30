@@ -11,7 +11,7 @@
             {% if project.itch %}
               <iframe frameborder="0" src="{{project.itch}}" width="552" height="167">
                 <a href="{{project.demo}}">
-                  Play on itch.io!
+                  {{project.itchTxt}}
                 </a>
               </iframe>
             {% elsif project.demo %}
