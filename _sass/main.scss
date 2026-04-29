@@ -260,6 +260,8 @@ a {
   margin: 0.5rem;
   padding: 1rem;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .footer a {
@@ -284,6 +286,8 @@ a {
   margin: 0.5rem;
   padding: 0.5rem;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .landing-title {
