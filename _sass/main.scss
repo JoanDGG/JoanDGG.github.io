@@ -37,7 +37,8 @@ html {
   font-size: $font-size-base;
   font-weight: normal;
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -177,10 +178,12 @@ a {
   height: 100%;
   justify-content: center;
   left: 0;
-  margin: 0.5rem;
-  padding: 0.5rem;
-  position: absolute;
+  top: 0;
   right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
   z-index: 999;
 
   .load {
@@ -263,19 +266,18 @@ a {
   background: $bg-color;
   color: $text-color;
   display: flex;
-  height: 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   margin: 0.5rem;
   padding: 0.5rem;
   text-align: center;
 }
 
 .landing-title {
-  left: 0;
   margin: 0.5rem;
   padding: 0.5rem;
-  position: absolute;
-  right: 0;
-  top: 40%;
+  position: relative;
 }
 
 .landing-icons {
