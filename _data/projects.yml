@@ -13,12 +13,27 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: Escape from Bear Island
+  image: EscapefromBearIsland
+  descr: "GD80 PG29 Team project at Vancouver Film School made in Unity"
+  demo: https://deversogg.itch.io/escape-from-bear-island
+  tags:
+    - tag: Unity 3D
+    - tag: ShaderGraph
+    - tag: C#
+
+- name: Keep it Up!
+  image: KeepItUp
+  descr: "2D pixelart physics-based soccer keep-up speedrun game for the Game Jam ScoreJam #37"
+  demo: https://deversogg.itch.io/keep-up
+  tags:
+    - tag: Unity 2D
+    - tag: C#
+
 - name: Vaqueritos
   image: Vaqueritos
-  descr: "Game created for the incubator Pixel Borregos from Tecnológico de Monterrey"
-  demo: https://arcade-dogo.itch.io/vaqueritos
-  # itch: https://itch.io/embed/2639837
-  # itchTxt: Vaqueritos by arcade dogo
+  descr: "A 1v1 multiplayer game set in the old west. Made by Doggo Creative Studio"
+  demo: https://doggo-creative-studio.itch.io/vaqueritos
   tags:
     - tag: Unity 2D
     - tag: Firebase
@@ -28,7 +43,7 @@
 - name: Yaoyotl
   image: Yaoyotl
   descr: "Game created during Game Jam 'Celebrating LATINX HERITAGE MONTH!"
-  demo: https://arcade-dogo.itch.io/yaoyotl
+  demo: https://doggo-creative-studio.itch.io/yaoyotl
   tags:
     - tag: Unity 3D
     - tag: Firebase
@@ -37,7 +52,7 @@
 
 - name: Deep Cognitive Artist
   image: DeepCognitiveArtist
-  descr: "Implemented a VR and mobile art cognitive project using Unity 3D and Oculus Quest 2 mixing an immersive experience with a 3D generated world with AI as well as interactions with the user such as painting, as well as visual interactables with the real world and real-time data storage with Firebase"
+  descr: "Implemented a VR and mobile art cognitive project using Unity 3D and Oculus Quest 2"
   tags:
     - tag: Unity 3D
     - tag: Oculus Quest 2
@@ -47,8 +62,8 @@
 
 - name: Neo Dance
   image: NeoDance
-  descr: "Working as lead game developer & programmer in a rhythm-based action game using Unity 2D, implementing mechanics, visual effects, music analysis & recording system, testing and an online gameplay with Firebase"
-  demo: https://catbotgames.itch.io/nneo-dance-cyberpunk
+  descr: "4-point Rhythm-based action game using Unity 2D"
+  demo: https://store.steampowered.com/app/2559020/Neo_Dance/
   tags:
     - tag: Unity 2D
     - tag: Firebase
@@ -56,7 +71,7 @@
 
 - name: Planet Crash
   image: PlanetCrash
-  descr: "Worked as a game developer and game designer in a 3D platformer-shooter game using Unity 3D and exploring Unity’s tools like URP and Pro-Builder. This project was supervised by Tagwizz Studio"
+  descr: "3D platformer-shooter game using Unity 3D. This project was supervised by Tagwizz Studio"
   demo: https://foundtexas.itch.io/planet-crash
   tags:
     - tag: Unity 3D
@@ -66,7 +81,7 @@
 
 - name: TECMEX APP
   image: Tecmex
-  descr: "Working on a full stack solution for a simulation of a contact center with Telmex using Amazon Connect and AWS services, producing the interface of the client's voice recognition using Amazon VoiceID, displaying the client's info with React"
+  descr: "Simulation of a contact center with Telmex using Amazon Connect and AWS services, producing the interface of the client's voice recognition using Amazon VoiceID, displaying the client's info with React"
   demo: https://github.com/AmazonConnect-TECCEM-502
   tags:
     - tag: Amazon AWS
@@ -80,13 +95,13 @@
 - name: Last Santa Standing
   image: MultiSanta
   descr: "Game created during Game Jam 'Cozy Winter Jam 2022'"
-  demo: https://arcade-dogo.itch.io/lss
+  demo: https://doggo-creative-studio.itch.io/lss
   tags:
     - tag: C#
     - tag: Unity 2D
 
 - name: Multi-agent Simulation App
-  descr: "Created a 3D multi-agent traffic visualization displayed in Unity 3D Engine, using Mesa AI agent framework in Python."
+  descr: "3D multi-agent traffic visualization displayed in Unity 3D Engine, using Mesa AI agent framework in Python."
   demo: https://github.com/JoanDGG/Modelo-multiagentes
   tags:
     - tag: C#
@@ -97,13 +112,13 @@
 - name: Honey, you're dreaming
   image: Honey youre dreaming
   descr: "Game created using Unity 2D during Game Jam 'Brackeys Game Jam 2022.1'."
-  demo: https://arcade-dogo.itch.io/honey-youre-dreaming
+  demo: https://doggo-creative-studio.itch.io/honey-youre-dreaming
   tags:
     - tag: C#
     - tag: Unity 2D
 
 - name: App Dibujando un Mañana
-  descr: "Developed a mobile app with Android Studio using Kotlin which promotes the activities and donations done by the foundation Dibujando un mañana. Connected the app with a Firebase database and uses the PayPal services."
+  descr: "Mobile app with Android Studio using Kotlin which promotes the activities and donations done by the foundation Dibujando un mañana. Connected the app with a Firebase database and uses the PayPal services."
   demo: https://github.com/aenco9/dibujandoApp
   tags:
     - tag: Android Studio
@@ -122,7 +137,7 @@
 - name: Break
   image: Break
   descr: "Game created using Unity 2D during Game Jam 'Mini jam 87: Break'."
-  demo: https://arcade-dogo.itch.io/break
+  demo: https://doggo-creative-studio.itch.io/break
   tags:
     - tag: C#
     - tag: Unity 2D
@@ -144,7 +159,7 @@
     - tag: Unity 2D
 
 - name: Proyecto Marte
-  descr: "Developed a 2D video game with Unity 2D Engine using C#, with the purpose of spreading STEAM's mission while obtaining user's data through a MySQL database."
+  descr: "2D video game with Unity 2D Engine using C#, with the purpose of spreading STEAM's mission while obtaining user's data through a MySQL database."
   demo: https://github.com/JoanDGG/Proyecto-Marte
   demo: https://github.com/JoanDGG/ServidorProyectoMarte
   tags:

@@ -17,8 +17,54 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: Doggo Creative Studio
+  date: Jul 2024 - to date
+  subtitle: Leading a multidisciplinary team (10+ members) composed of digital artists, game designers, game developers, UI/UX designers, and music developers to create a new game studio based on Mexico with the goal to expand the industry for newcomers and create unique experiences that gamers can relate to and enjoy.
+    - tag: Unity 3D
+    - tag: Unity 2D
+    - tag: C#
+  timeline-side: right
+
+- title: Vancouver Film School
+  date: Aug 2025 - to date
+  subtitle: Studying a one year program of Game Design with instructors from the industry with the goal of expanding my knowledge in game design and level design, as well as proper documentation structure and expanding my knowledge in platforms like Unreal and Maya.
+    - tag: Unity 3D
+    - tag: Unreal Engine 5
+    - tag: Documentation
+    - tag: Maya
+    - tag: C#
+  timeline-side: left
+
+- title: Sproule Mexico
+  date: Jan 2025 - Sep 2025
+  subtitle: Worked as a Full Stack Python Developer creating a visual interface and the backends logic for data modeling and prediction in the Energy Industry. The platform is being made using Python’s libraries like Bootstrap, Dash, Plotly and managed in a multi-disciplinary team using Azure DevOps.
+    - tag: Python
+    - tag: Azure DevOps
+    - tag: Dash
+    - tag: Plotly
+    - tag: Bootstrap
+  timeline-side: right
+
+- title: Lunion Innovations 
+  date: Aug 2024 - Oct 2024
+  subtitle: Created a 3D simulation for a material demonstration presented at the International Astronautical Congress (IAC 2024) as an Interactive Presentation in the Category of Space and Society in Milan, Italy. The simulation was developed in Unity 3D, optimized for a Virtual Reality (VR) Experience for Meta Quest 3 devices, defining the ultimate goal of presenting the proposal to international space institutes such as NASA.
+    - tag: Unity 3D
+    - tag: C#
+    - tag: Meta Quest 3
+  timeline-side: left
+
+- title: Prefixa
+  date: Sep 2024 - Oct 2024
+  subtitle: Worked as a Full stack developer creating a 3D virtual environment with Unity 3D to recreate accurate physics and interactions in a lunar environment for VR and AR targets. Implementing complex mechanics like vehicle controllers, user input handling, 3D real-time radar systems, and controllers for a virtual assistant robot, among other duties in the project development. This project was presented at the 1st VR/AR Association (VRARA) Meetup in Querétaro.
+  tags:
+    - tag: Unity 3D
+    - tag: C#
+    - tag: Meta Quest 3
+    - tag: AR
+  timeline-side: right
+
 - title: Institute of Advanced Materials for Sustainable Manufacturing
-  date: Feb 2024 - to date
+  date: Feb 2024 - Dec 2024
   subtitle: Working in a generative content algorithm for a VR project for gamification and training
   tags:
     - tag: Unity 3D

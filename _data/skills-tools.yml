@@ -32,6 +32,36 @@
 - name: Plastic SCM
   weight: 3
 
+- name: Trello
+  weight: 5
+
+- name: Documentation
+  weight: 4
+
+- name: HacknPlan
+  weight: 2
+
+- name: ClickUp
+  weight: 3
+
+- name: Azure DevOps
+  weight: 4
+
+- name: Slack
+  weight: 3
+
+- name: Dash
+  weight: 3
+
+- name: Plotly
+  weight: 3
+
+- name: Bootstrap
+  weight: 2
+
+- name: Teams
+  weight: 5
+
 - name: Postman
   weight: 4
 
@@ -40,6 +70,9 @@
 
 - name: Unity
   weight: 5
+
+- name: Unreal Engine 5
+  weight: 4
 
 - name: GameMaker Studio 2
   weight: 4
@@ -51,10 +84,13 @@
   weight: 2
 
 - name: Firebase
-  weight: 2
+  weight: 4
 
 - name: Android Studio
   weight: 1
 
 - name: Blender
   weight: 1
+
+- name: Maya
+  weight: 2

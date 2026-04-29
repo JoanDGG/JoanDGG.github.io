@@ -19,3 +19,6 @@
 
 - name: Photon PUN
   weight: 3
+
+- name: Phaser
+  weight: 1

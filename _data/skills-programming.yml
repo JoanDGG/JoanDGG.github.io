@@ -41,7 +41,16 @@
 - name: GML
   weight: 3
 
+- name: Godot
+  weight: 2
+
 - name: C#
+  weight: 5
+
+- name: UE5 Blueprints
+  weight: 4
+
+- name: ShaderGraph
   weight: 4
 
 - name: SQL
