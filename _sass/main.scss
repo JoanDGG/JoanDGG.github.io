@@ -966,6 +966,10 @@ a {
     > * {
       width: 44%;
     }
+    .project:first-child {
+      width: 100%;
+      min-height: 12rem;
+    }
   }
 
   .contact-icons .social-link {
