@@ -206,7 +206,7 @@ a:hover {
 .footer a {
   color: var(--primary-color);
 }
-#landing,
+#landing { background: transparent; }
 .footer a:focus,
 .footer a:hover {
   background: var(--background-color);
