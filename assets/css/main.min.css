@@ -745,8 +745,10 @@ a:hover {
   .projects-wrapper > * {
     width: 44%;
   }
-  .projects-wrapper .project:first-child {
-    width: 100%;
+  .projects-wrapper > .project:first-child {
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    width: 100% !important;
     min-height: 12rem;
   }
   .contact-icons .social-link {

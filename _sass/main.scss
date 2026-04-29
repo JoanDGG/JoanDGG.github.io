@@ -966,8 +966,9 @@ a {
     > * {
       width: 44%;
     }
-    .project:first-child {
-      width: 100%;
+    > .project:first-child {
+      flex: 0 0 100% !important;
+      width: 100% !important;
       min-height: 12rem;
     }
   }
