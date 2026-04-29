@@ -19,16 +19,17 @@
 
 - title: Doggo Creative Studio
   date: Jul 2024 - to date
-  subtitle: Leading a multidisciplinary team (10+ members) composed of digital artists, game designers, game developers, UI/UX designers, and music developers to create a new game studio based on Mexico with the goal to expand the industry for newcomers and create unique experiences that gamers can relate to and enjoy.
-    - tag: Unity 3D
-    - tag: Unity 2D
+  subtitle: Leading a multidisciplinary team (10+ members) composed of digital artists, game designers, game developers, UI/UX designers, and music developers to create a new game studio based on Mexico with the goal to expand the industry for newcomers and create unique experiences that gamers can relate to and enjoy
+  tags:
+    - tag: Unity
     - tag: C#
   timeline-side: right
 
 - title: Vancouver Film School
   date: Aug 2025 - to date
-  subtitle: Studying a one year program of Game Design with instructors from the industry with the goal of expanding my knowledge in game design and level design, as well as proper documentation structure and expanding my knowledge in platforms like Unreal and Maya.
-    - tag: Unity 3D
+  subtitle: Studying a one year program of Game Design with instructors from the industry with the goal of expanding my knowledge in game design and level design, as well as proper documentation structure and expanding my knowledge in platforms like Unreal and Maya
+  tags:
+    - tag: Unity
     - tag: Unreal Engine 5
     - tag: Documentation
     - tag: Maya
@@ -38,6 +39,7 @@
 - title: Sproule Mexico
   date: Jan 2025 - Sep 2025
   subtitle: Worked as a Full Stack Python Developer creating a visual interface and the backends logic for data modeling and prediction in the Energy Industry. The platform is being made using Python’s libraries like Bootstrap, Dash, Plotly and managed in a multi-disciplinary team using Azure DevOps.
+  tags:
     - tag: Python
     - tag: Azure DevOps
     - tag: Dash
@@ -47,19 +49,20 @@
 
 - title: Lunion Innovations 
   date: Aug 2024 - Oct 2024
-  subtitle: Created a 3D simulation for a material demonstration presented at the International Astronautical Congress (IAC 2024) as an Interactive Presentation in the Category of Space and Society in Milan, Italy. The simulation was developed in Unity 3D, optimized for a Virtual Reality (VR) Experience for Meta Quest 3 devices, defining the ultimate goal of presenting the proposal to international space institutes such as NASA.
-    - tag: Unity 3D
+  subtitle: Created a 3D simulation for a material demonstration presented at the International Astronautical Congress (IAC 2024) as an Interactive Presentation in the Category of Space and Society in Milan, Italy. The simulation was developed in Unity 3D, optimized for a Virtual Reality (VR) Experience for Meta Quest 3 devices, defining the ultimate goal of presenting the proposal to international space institutes such as NASA
+  tags:
+    - tag: Unity
     - tag: C#
-    - tag: Meta Quest 3
+    - tag: MetaQuest3
   timeline-side: left
 
 - title: Prefixa
   date: Sep 2024 - Oct 2024
-  subtitle: Worked as a Full stack developer creating a 3D virtual environment with Unity 3D to recreate accurate physics and interactions in a lunar environment for VR and AR targets. Implementing complex mechanics like vehicle controllers, user input handling, 3D real-time radar systems, and controllers for a virtual assistant robot, among other duties in the project development. This project was presented at the 1st VR/AR Association (VRARA) Meetup in Querétaro.
+  subtitle: Worked as a Full stack developer creating a 3D virtual environment with Unity 3D to recreate accurate physics and interactions in a lunar environment for VR and AR targets. Implementing complex mechanics like vehicle controllers, user input handling, 3D real-time radar systems, and controllers for a virtual assistant robot, among other duties in the project development. This project was presented at the 1st VR/AR Association (VRARA) Meetup in Queretaro
   tags:
-    - tag: Unity 3D
+    - tag: Unity
     - tag: C#
-    - tag: Meta Quest 3
+    - tag: MetaQuest3
     - tag: AR
   timeline-side: right
 
@@ -67,7 +70,7 @@
   date: Feb 2024 - Dec 2024
   subtitle: Working in a generative content algorithm for a VR project for gamification and training
   tags:
-    - tag: Unity 3D
+    - tag: Unity
     - tag: C#
     - tag: Omniverse
     - tag: MetaQuest3
@@ -78,7 +81,7 @@
   date: Aug 2023 - Oct 2023
   subtitle: Worked in the VR project Deep Cognitive Artist for Fondo Creativo 2023
   tags:
-    - tag: Unity 3D
+    - tag: Unity
     - tag: C#
     - tag: MetaQuest2
   timeline-side: right
@@ -88,7 +91,7 @@
   date: Oct 2022 - Oct 2023
   subtitle: Worked as lead game developer & programmer for the videogame Neo Dance 
   tags:
-    - tag: Unity 2D
+    - tag: Unity
     - tag: C# 
   timeline-side: left
 
@@ -109,7 +112,7 @@
   date: Dec 2022 - Dec 2022
   subtitle: 3-day Game Jam hosted by Virtual Turtle Games, with a cozy winter game-theme
   tags:
-    - tag: Unity 2D
+    - tag: Unity
     - tag: C#
   timeline-side: right
 
@@ -118,7 +121,7 @@
   date: Feb 2022 - Feb 2022
   subtitle: Game Jam hosted by Brackeys, with the surprise theme 'IT IS NOT REAL'
   tags:
-    - tag: Unity 2D
+    - tag: Unity
     - tag: C#
   timeline-side: left
 
@@ -127,7 +130,7 @@
   date: Oct 2021 - Nov 2021
   subtitle: Game Jam sponsored by GameJolt, Beamable and AWS Game Tech
   tags:
-    - tag: Unity 2D
+    - tag: Unity
     - tag: C#
     - tag: Photon PUN
   timeline-side: right
@@ -137,7 +140,7 @@
   date: Aug 2021 - Aug 2021
   subtitle: One of the various Mini jams in itch.io, with the theme 'Break'
   tags:
-    - tag: Unity 2D
+    - tag: Unity
     - tag: C#
   timeline-side: left
 
@@ -146,7 +149,7 @@
   date: June 2021 - July 2021
   subtitle: Game Jam hosted by Lone Rabbit about time, with the optional theme 'Escaping fate'
   tags:
-    - tag: Unity 2D
+    - tag: Unity
     - tag: C#
   timeline-side: right
 
@@ -155,7 +158,7 @@
   date: April 2021 - April 2021
   subtitle: Game Jam hosted by SAITC, SALAD, SAIMI and Tec de Monterrey, with the surprise theme 'Urban myths & legends'
   tags:
-    - tag: Unity 2D
+    - tag: Unity
     - tag: C#
   timeline-side: left
 
