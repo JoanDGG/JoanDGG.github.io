@@ -670,6 +670,19 @@ a {
   border-radius: 1rem;
   margin: 1rem 0;
   padding: 0.5rem 1rem;
+  /* Make background images expand to card width but preserve aspect ratio */
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+  overflow: hidden;
+}
+
+/* Ensure any actual <img> elements inside project scale to fit */
+.project img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 .project .name-link-wrapper {
