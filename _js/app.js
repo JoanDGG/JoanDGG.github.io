@@ -7,8 +7,6 @@ $(document).ready(function() {
     window.scrollTo(0, 0);
   });
 
-  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  // particlesJS.load('landing', 'assets/particles.json', function() {});
   particlesJS.load('main-particles', 'assets/particles-main.json', function() {});
 
   // Typing Text
