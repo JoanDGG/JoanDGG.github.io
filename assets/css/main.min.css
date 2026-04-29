@@ -518,15 +518,16 @@ a:hover {
   border-radius: 1rem;
   margin: 1rem 0;
   padding: 0.5rem 1rem;
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
   overflow: hidden;
 }
 .project img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 12rem;
+  object-fit: cover;
   max-width: 100%;
 }
 .project .name-link-wrapper {

@@ -109,7 +109,6 @@ a {
 }
 
 .layout .card {
-  /* Make cards opaque so particles are not visible through them */
   background: rgba(24, 24, 35, 0.95);
   border-radius: 2rem;
   margin: 3rem 0;
@@ -670,18 +669,18 @@ a {
   border-radius: 1rem;
   margin: 1rem 0;
   padding: 0.5rem 1rem;
-  /* Make background images expand to card width but preserve aspect ratio */
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
   overflow: hidden;
 }
 
-/* Ensure any actual <img> elements inside project scale to fit */
+/* Ensure any actual <img> elements inside project fill the area and crop nicely */
 .project img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 12rem;
+  object-fit: cover;
   max-width: 100%;
 }
 
