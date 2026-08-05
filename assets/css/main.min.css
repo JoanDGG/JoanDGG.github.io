@@ -324,6 +324,12 @@ a:hover {
 .landing-icons .eco:hover .social-svg {
   fill: #a41034;
 }
+.landing-icons .steam:hover .circle {
+  animation: b 1s ease-in-out forwards, g 1s linear forwards;
+}
+.landing-icons .steam:hover .social-svg {
+  fill: #171a21;
+}
 @keyframes b {
   to {
     stroke-dasharray: 510;

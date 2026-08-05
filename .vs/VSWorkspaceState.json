@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\img",
+    "\\_data",
+    "\\_includes",
+    "\\_js",
+    "\\_layouts",
+    "\\_sass"
   ],
   "PreviewInSolutionExplorer": false
 }

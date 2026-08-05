@@ -17,173 +17,180 @@
 
     <div class="landing-icons">
 
-      <!-- EMAIL -->
-      {% if site.email != null %}
+        <!-- EMAIL -->
+        {% if site.email != null %}
         <a class="social-link email" aria-label="My E-Mail" href="mailto:{{site.email}}">
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/solid.svg#envelope" | prepend: site.baseurl }}""></use>
+            <svg viewBox="0 0 200 200" class="circle">
+                <circle cx="100" cy="100" r="80" />
             </svg>
-          </div>
-          <span class="label">E-Mail</span>
+            <div class="social">
+                <svg class="social-svg" viewBox="0 0 48 48">
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/solid.svg#envelope" | prepend: site.baseurl }}" "></use>
+                </svg>
+            </div>
+            <span class="label">E-Mail</span>
         </a>
-      {% endif %}
+        {% endif %}
 
-      <!-- GITHUB -->
-      {% if site.github_username != null %}
+        <!-- GITHUB -->
+        {% if site.github_username != null %}
         <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
-          href="https://github.com/{{site.github_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#github" | prepend: site.baseurl }}"></use>
+           href="https://github.com/{{site.github_username}}">
+            <svg viewBox="0 0 200 200" class="circle">
+                <circle cx="100" cy="100" r="80" />
             </svg>
-          </div>
-          <span class="label">GitHub</span>
+            <div class="social">
+                <svg class="social-svg" viewBox="0 0 48 48">
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#github" | prepend: site.baseurl }}"></use>
+                </svg>
+            </div>
+            <span class="label">GitHub</span>
         </a>
-      {% endif %}
-      
-      <!-- CODEPEN -->
-      {% if site.codepen_username != null %}
+        {% endif %}
+
+        <!-- CODEPEN -->
+        {% if site.codepen_username != null %}
         <a class="social-link" aria-label="My Codepen" target="_blank" rel="noreferrer"
-          href="https://codepen.io/{{site.codepen_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#codepen" | prepend: site.baseurl }}"></use>
+           href="https://codepen.io/{{site.codepen_username}}">
+            <svg viewBox="0 0 200 200" class="circle">
+                <circle cx="100" cy="100" r="80" />
             </svg>
-          </div>
-          <span class="label">CodePen</span>
+            <div class="social">
+                <svg class="social-svg" viewBox="0 0 48 48">
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#codepen" | prepend: site.baseurl }}"></use>
+                </svg>
+            </div>
+            <span class="label">CodePen</span>
         </a>
-      {% endif %}
+        {% endif %}
 
-      <!-- DEV.TO -->
-      {% if site.dev_username != null %}
+        <!-- DEV.TO -->
+        {% if site.dev_username != null %}
         <a class="social-link" aria-label="My DEV" target="_blank" rel="noreferrer"
-          href="https://dev.to/{{site.dev_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#dev" | prepend: site.baseurl }}"></use>
+           href="https://dev.to/{{site.dev_username}}">
+            <svg viewBox="0 0 200 200" class="circle">
+                <circle cx="100" cy="100" r="80" />
             </svg>
-          </div>
-          <span class="label">DEV</span>
+            <div class="social">
+                <svg class="social-svg" viewBox="0 0 48 48">
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#dev" | prepend: site.baseurl }}"></use>
+                </svg>
+            </div>
+            <span class="label">DEV</span>
         </a>
-      {% endif %}
+        {% endif %}
 
-      <!-- LINKEDIN -->
-      {% if site.linkedin_username != null %}
+        <!-- LINKEDIN -->
+        {% if site.linkedin_username != null %}
         <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"
-          rel="noreferrer" href="https://www.linkedin.com/in/{{site.linkedin_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#linkedin-in" | prepend: site.baseurl }}"></use>
+           rel="noreferrer" href="https://www.linkedin.com/in/{{site.linkedin_username}}">
+            <svg viewBox="0 0 200 200" class="circle">
+                <circle cx="100" cy="100" r="80" />
             </svg>
-          </div>
-          <span class="label">LinkedIn</span>
+            <div class="social">
+                <svg class="social-svg" viewBox="0 0 48 48">
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#linkedin-in" | prepend: site.baseurl }}"></use>
+                </svg>
+            </div>
+            <span class="label">LinkedIn</span>
         </a>
-      {% endif %}
+        {% endif %}
 
-      <!-- LINKTREE -->
-      {% if site.linktree_username != null %}
+        <!-- LINKTREE -->
+        {% if site.linktree_username != null %}
         <a class="social-link linktree" aria-label="My Linktree" target="_blank"
-          rel="noreferrer" href="https://linktr.ee/{{site.linktree_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/solid.svg#link" | prepend: site.baseurl }}"></use>
+           rel="noreferrer" href="https://linktr.ee/{{site.linktree_username}}">
+            <svg viewBox="0 0 200 200" class="circle">
+                <circle cx="100" cy="100" r="80" />
             </svg>
-          </div>
-          <span class="label">Linktree</span>
+            <div class="social">
+                <svg class="social-svg" viewBox="0 0 48 48">
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/solid.svg#link" | prepend: site.baseurl }}"></use>
+                </svg>
+            </div>
+            <span class="label">Linktree</span>
         </a>
-      {% endif %}
+        {% endif %}
 
-      <!-- TWITTER -->
-      {% if site.twitter_username != null %}
+        <!-- TWITTER -->
+        {% if site.twitter_username != null %}
         <a class="social-link twitter" aria-label="My Twitter" target="_blank"
-          rel="noreferrer" href="https://twitter.com/{{site.twitter_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#twitter" | prepend: site.baseurl }}"></use>
+           rel="noreferrer" href="https://twitter.com/{{site.twitter_username}}">
+            <svg viewBox="0 0 200 200" class="circle">
+                <circle cx="100" cy="100" r="80" />
             </svg>
-          </div>
-          <span class="label">Twitter</span>
+            <div class="social">
+                <svg class="social-svg" viewBox="0 0 48 48">
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#twitter" | prepend: site.baseurl }}"></use>
+                </svg>
+            </div>
+            <span class="label">Twitter</span>
         </a>
-      {% endif %}
+        {% endif %}
 
-      <!-- DISCORD -->
-      {% if site.discord_username != null %}
+        <!-- DISCORD -->
+        {% if site.discord_username != null %}
         <a class="social-link discord" aria-label="My Discord" target="_blank"
-          rel="noreferrer" href="https://dsc.bio/{{site.discord_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#discord" | prepend: site.baseurl }}"></use>
+           rel="noreferrer" href="https://dsc.bio/{{site.discord_username}}">
+            <svg viewBox="0 0 200 200" class="circle">
+                <circle cx="100" cy="100" r="80" />
             </svg>
-          </div>
-          <span class="label">Discord</span>
+            <div class="social">
+                <svg class="social-svg" viewBox="0 0 48 48">
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#discord" | prepend: site.baseurl }}"></use>
+                </svg>
+            </div>
+            <span class="label">Discord</span>
         </a>
-      {% endif %}
+        {% endif %}
 
-      <!-- ITCH.IO -->
-      {% if site.itch-io_username != null %}
+        <!-- STEAM -->
+        {% if site.steam_username != null %}
+        <a class="social-link steam" aria-label="My Steam" target="_blank"
+           rel="noreferrer" href="https://steamcommunity.com/id/{{site.eco_username}}/">
+            <svg viewBox="0 0 200 200" class="circle">
+                <circle cx="100" cy="100" r="80" />
+            </svg>
+            <div class="social">
+                <svg class="social-svg" viewBox="0 0 48 48">
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#steam" | prepend: site.baseurl }}" "></use>
+                </svg>
+            </div>
+            <span class="label">Steam</span>
+        </a>
+        {% endif %}
+
+        <!-- ITCH.IO -->
+        {% if site.itch-io_username != null %}
         <a class="social-link itch-io" aria-label="My Itch.io" target="_blank"
-          rel="noreferrer" href="https://{{site.itch-io_username}}.itch.io"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#itch-io" | prepend: site.baseurl }}""></use>
+           rel="noreferrer" href="https://{{site.itch-io_username}}.itch.io">
+            <svg viewBox="0 0 200 200" class="circle">
+                <circle cx="100" cy="100" r="80" />
             </svg>
-          </div>
-          <span class="label">Itch.io</span>
+            <div class="social">
+                <svg class="social-svg" viewBox="0 0 48 48">
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#itch-io" | prepend: site.baseurl }}" "></use>
+                </svg>
+            </div>
+            <span class="label">Itch.io</span>
         </a>
-      {% endif %}
+        {% endif %}
 
-      <!-- CREATIVE ECO VFS -->
-      {% if site.eco_username != null %}
+        <!-- CREATIVE ECO VFS -->
+        {% if site.eco_username != null %}
         <a class="social-link eco" aria-label="My Creative Eco" target="_blank"
-          rel="noreferrer" href="https://welcome.vfs.com/creative/@{{site.eco_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#globe" | prepend: site.baseurl }}""></use>
+           rel="noreferrer" href="https://welcome.vfs.com/creative/@{{site.eco_username}}">
+            <svg viewBox="0 0 200 200" class="circle">
+                <circle cx="100" cy="100" r="80" />
             </svg>
-          </div>
-          <span class="label">Itch.io</span>
+            <div class="social">
+                <svg class="social-svg" viewBox="0 0 48 48">
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#globe" | prepend: site.baseurl }}" "></use>
+                </svg>
+            </div>
+            <span class="label">Creative Eco</span>
         </a>
-      {% endif %}
+        {% endif %}
     </div>
   </div>
 </div>
