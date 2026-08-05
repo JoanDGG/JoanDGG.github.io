@@ -318,6 +318,12 @@ a:hover {
 .landing-icons .twitter:hover .social-svg {
   fill: #1da1f2;
 }
+.landing-icons .eco:hover .circle {
+  animation: b 1s ease-in-out forwards, g 1s linear forwards;
+}
+.landing-icons .eco:hover .social-svg {
+  fill: #a41034;
+}
 @keyframes b {
   to {
     stroke-dasharray: 510;
