@@ -40,11 +40,13 @@ show_aboutme_card: true
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
 about_me_description: |
-  <p><span style="display:block;font-weight:700;font-size:1.25em;margin-bottom:0.4rem;">Hi! I'm Joan (<span class="highlight-title">Deverso GG</span>)</span></p>
-  <p>I'm a Technical Designer, Game Developer, and Software Engineer with 7+ years of experience creating games and interactive experiences in Unity and Unreal.</p>
-  <p>But above all, I'm someone who genuinely loves videogames.</p>
-  <p>I've always been fascinated by how games can tell stories, challenge players, and create unforgettable moments. That passion eventually became my career, and today I get to build those experiences myself.</p>
-  <p>Thanks for stopping by! Feel free to explore my projects, and if you'd like to build something together, I'd love to connect.</p>
+  <div style="font-size:1.125rem; line-height:1.6;">
+    <p><span style="display:block;font-weight:700;font-size:1.5em;margin-bottom:0.4rem;">Hi! I'm Joan (<span class="highlight-title">Deverso GG</span>)</span></p>
+    <p>I'm a Technical Designer, Game Developer, and Software Engineer with 7+ years of experience creating games and interactive experiences in Unity and Unreal. But above all, I'm someone who genuinely loves videogames.</p>
+    <p>I've always been fascinated by how games can tell stories, challenge players, and create unforgettable moments. That passion eventually became my career, and today I get to build those experiences myself.</p>
+    <p>Thanks for stopping by!</p>
+    <p>Feel free to explore my projects, and if you'd like to build something together, I'd love to connect.</p>
+  </div>
 
 # SKILLS SECTION
 # show_skills_card:
