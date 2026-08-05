@@ -131,7 +131,7 @@
         <!-- DISCORD -->
         {% if site.discord_username != null %}
         <a class="social-link discord" aria-label="My Discord" target="_blank"
-           rel="noreferrer" href="https://dsc.bio/{{site.discord_username}}">
+           rel="noreferrer" href="https://discord.com/users/{{site.discord_username}}">
             <svg viewBox="0 0 200 200" class="circle">
                 <circle cx="100" cy="100" r="80" />
             </svg>
@@ -147,7 +147,7 @@
         <!-- STEAM -->
         {% if site.steam_username != null %}
         <a class="social-link steam" aria-label="My Steam" target="_blank"
-           rel="noreferrer" href="https://steamcommunity.com/id/{{site.eco_username}}/">
+           rel="noreferrer" href="https://steamcommunity.com/id/{{site.steam_username}}/">
             <svg viewBox="0 0 200 200" class="circle">
                 <circle cx="100" cy="100" r="80" />
             </svg>
@@ -185,10 +185,10 @@
             </svg>
             <div class="social">
                 <svg class="social-svg" viewBox="0 0 48 48">
-                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#globe" | prepend: site.baseurl }}" "></use>
+                    <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/solid.svg#palette" | prepend: site.baseurl }}" "></use>
                 </svg>
             </div>
-            <span class="label">Creative Eco</span>
+            <span class="label">CreativeEco</span>
         </a>
         {% endif %}
     </div>
