@@ -39,7 +39,12 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Hi! My name is Joan, I'm a game designer and game developer with the name of <span class="highlight-title">Deverso GG</span>. I'm a software engineer, game designer, and huge videogames fan, mainly working on Unity 2D or 3D and Unreal. I have also worked my project management skills with a logical oriented mindset over 5+ years, proving my solutions effective when solving problems or creating innovative solutions either on personal projects or working in a team. I always have some project to work on or big plans for the future, with a brand new game studio coming soon with an incredible team! I'm happy to get to know you and possibly work together!
+about_me_description: |
+  <p><span style="display:block;font-weight:700;font-size:1.25em;margin-bottom:0.4rem;">Hi! I'm Joan (<span class="highlight-title">Deverso GG</span>)</span></p>
+  <p>I'm a Technical Designer, Game Developer, and Software Engineer with 7+ years of experience creating games and interactive experiences in Unity and Unreal.</p>
+  <p>But above all, I'm someone who genuinely loves videogames.</p>
+  <p>I've always been fascinated by how games can tell stories, challenge players, and create unforgettable moments. That passion eventually became my career, and today I get to build those experiences myself.</p>
+  <p>Thanks for stopping by! Feel free to explore my projects, and if you'd like to build something together, I'd love to connect.</p>
 
 # SKILLS SECTION
 # show_skills_card:
