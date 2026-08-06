@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\landing-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_includes\\landing-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_sass\\main.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_sass\\main.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\assets\\img\\brands.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\img\\brands.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\assets\\css\\main.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\main.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\projects.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_data\\projects.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\section-timeline.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_includes\\section-timeline.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_config.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_config.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\timeline.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_data\\timeline.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\section-projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_includes\\section-projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-tools.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_data\\skills-tools.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-programming.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_data\\skills-programming.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-languages.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_data\\skills-languages.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-frameworks.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_data\\skills-frameworks.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\section-skills.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_includes\\section-skills.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "brands.svg",
-              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\assets\\img\\brands.svg",
-              "RelativeDocumentMoniker": "assets\\img\\brands.svg",
-              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\assets\\img\\brands.svg",
-              "RelativeToolTip": "assets\\img\\brands.svg",
-              "ViewState": "AgIAAPkBAAAAAAAAAAASwBYCAAACAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-08-05T18:11:58.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_config.yml",
-              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_config.yml",
-              "RelativeDocumentMoniker": "_config.yml",
-              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_config.yml",
-              "RelativeToolTip": "_config.yml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-08-05T18:06:11.364Z",
+              "DocumentIndex": 0,
+              "Title": "main.scss",
+              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_sass\\main.scss",
+              "RelativeDocumentMoniker": "_sass\\main.scss",
+              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_sass\\main.scss",
+              "RelativeToolTip": "_sass\\main.scss",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-08-05T20:37:22.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "main.min.css",
-              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\assets\\css\\main.min.css",
-              "RelativeDocumentMoniker": "assets\\css\\main.min.css",
-              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\assets\\css\\main.min.css",
-              "RelativeToolTip": "assets\\css\\main.min.css",
-              "ViewState": "AgIAACYBAAAAAAAAAAAAAEQBAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-05T18:04:27.605Z",
+              "Title": "_config.yml",
+              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_config.yml",
+              "RelativeDocumentMoniker": "_config.yml",
+              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_config.yml",
+              "RelativeToolTip": "_config.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-08-05T20:07:52.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "landing-page.html",
-              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\landing-page.html",
-              "RelativeDocumentMoniker": "_includes\\landing-page.html",
-              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\landing-page.html",
-              "RelativeToolTip": "_includes\\landing-page.html",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAALUAAAASAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "section-timeline.html",
+              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\section-timeline.html",
+              "RelativeDocumentMoniker": "_includes\\section-timeline.html",
+              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\section-timeline.html",
+              "RelativeToolTip": "_includes\\section-timeline.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-08-05T17:43:49.384Z",
+              "WhenOpened": "2026-08-05T20:03:36.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "timeline.yml",
-              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\timeline.yml",
-              "RelativeDocumentMoniker": "_data\\timeline.yml",
-              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\timeline.yml",
-              "RelativeToolTip": "_data\\timeline.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-08-05T17:41:15.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "skills-tools.yml",
-              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-tools.yml",
-              "RelativeDocumentMoniker": "_data\\skills-tools.yml",
-              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-tools.yml",
-              "RelativeToolTip": "_data\\skills-tools.yml",
+              "DocumentIndex": 4,
+              "Title": "section-skills.html",
+              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\section-skills.html",
+              "RelativeDocumentMoniker": "_includes\\section-skills.html",
+              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\section-skills.html",
+              "RelativeToolTip": "_includes\\section-skills.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-08-05T17:41:14.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "skills-programming.yml",
-              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-programming.yml",
-              "RelativeDocumentMoniker": "_data\\skills-programming.yml",
-              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-programming.yml",
-              "RelativeToolTip": "_data\\skills-programming.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-08-05T17:41:14.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "skills-languages.yml",
-              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-languages.yml",
-              "RelativeDocumentMoniker": "_data\\skills-languages.yml",
-              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-languages.yml",
-              "RelativeToolTip": "_data\\skills-languages.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-08-05T17:41:13.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "skills-frameworks.yml",
-              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-frameworks.yml",
-              "RelativeDocumentMoniker": "_data\\skills-frameworks.yml",
-              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\skills-frameworks.yml",
-              "RelativeToolTip": "_data\\skills-frameworks.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-08-05T17:41:13.017Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-08-05T20:03:33.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "projects.yml",
-              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\projects.yml",
-              "RelativeDocumentMoniker": "_data\\projects.yml",
-              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_data\\projects.yml",
-              "RelativeToolTip": "_data\\projects.yml",
+              "Title": "section-projects.html",
+              "DocumentMoniker": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\section-projects.html",
+              "RelativeDocumentMoniker": "_includes\\section-projects.html",
+              "ToolTip": "C:\\Users\\Public\\Repos\\JoanDGG.github.io\\_includes\\section-projects.html",
+              "RelativeToolTip": "_includes\\section-projects.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-08-05T17:41:06.192Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-08-05T20:03:28.758Z",
               "EditorCaption": ""
             }
           ]
