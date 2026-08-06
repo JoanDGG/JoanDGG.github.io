@@ -1,3 +1,47 @@
+/* ---------- Typewriter tagline ---------- */
+(function initTypewriter(){
+  const el = document.getElementById('typeText');
+  if (!el) return;
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const phrases = [
+    'Technical Designer & Game Developer',
+    'Huge videogame fan 👾',
+    'Building interactive worlds, one shader at a time',
+    'Scroll down for more info ↓'
+  ];
+  const typeSpeed = reduceMotion ? 140 : 45;
+  const deleteSpeed = reduceMotion ? 90 : 25;
+  const pauseTime = reduceMotion ? 3200 : 1400;
+
+  let phraseIndex = 0, charIndex = 0, deleting = false;
+
+  function tick(){
+    const current = phrases[phraseIndex];
+    if (!deleting){
+      charIndex++;
+      el.textContent = current.slice(0, charIndex);
+      if (charIndex === current.length){
+        deleting = true;
+        setTimeout(tick, pauseTime);
+        return;
+      }
+      setTimeout(tick, typeSpeed);
+    } else {
+      charIndex--;
+      el.textContent = current.slice(0, charIndex);
+      if (charIndex === 0){
+        deleting = false;
+        phraseIndex = (phraseIndex + 1) % phrases.length;
+        setTimeout(tick, 300);
+        return;
+      }
+      setTimeout(tick, deleteSpeed);
+    }
+  }
+  tick();
+})();
+
 /* ---------- Falling pixels background ---------- */
 (function initPixelRain(){
   const canvas = document.getElementById('pixel-rain');

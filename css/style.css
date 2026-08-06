@@ -98,11 +98,13 @@
     box-shadow: 0 8px 30px rgba(0,0,0,.35);
   }
   .brand{ display:flex; align-items:center; gap:10px; font-family: var(--font-display); font-weight:700; font-size:.98rem; white-space:nowrap; }
+  .brand:hover .brand-mark{ transform: scale(1.06); }
   .brand-mark{
     width:34px; height:34px; border-radius:50%; display:flex; align-items:center; justify-content:center;
     background: linear-gradient(135deg, var(--primary), var(--secondary-deep));
     font-family: var(--font-display); font-weight:700; font-size:.85rem; color:#170f1c;
     box-shadow: 0 3px 0 rgba(0,0,0,.25);
+    transition: transform .18s ease;
   }
 
   .nav-links{ display:flex; align-items:center; gap:4px; }
@@ -160,6 +162,21 @@
   }
   .hero-desc{ color: var(--text-dim); font-size: 1.08rem; max-width: 54ch; margin: 0 0 32px; }
 
+  /* typewriter tagline */
+  .hero-type{
+    display:flex; align-items:center; gap:3px;
+    font-family: var(--font-mono); font-size:1rem; font-weight:500;
+    color: var(--secondary); margin: 0 0 20px; min-height: 1.5em;
+  }
+  .type-cursor{
+    display:inline-block; width:2px; height:1.1em; background: var(--secondary);
+    animation: blink 1s step-end infinite;
+  }
+  @keyframes blink{ 50%{ opacity:0; } }
+  @media (prefers-reduced-motion: reduce){
+    .type-cursor{ animation-duration: 2.6s; }
+  }
+
   .hero-actions{ display:flex; flex-wrap:wrap; gap:14px; margin-bottom: 28px; }
   .btn{
     display:inline-flex; align-items:center; gap:9px;
@@ -175,14 +192,34 @@
   .btn-ghost:hover{ transform: translateY(-2px); background: var(--panel-hover); }
   .btn-ghost:active{ transform: translateY(3px); box-shadow: 0 1px 0 var(--border); }
 
-  /* classic outline link row, original template style */
-  .hero-links{ display:flex; flex-wrap:wrap; gap:10px; }
+  /* circular social icon buttons, animated gradient ring on hover */
+  .hero-links{ display:flex; flex-wrap:wrap; gap:12px; }
   .hero-links a{
-    padding: 9px 18px; border: 1px solid var(--border-strong); border-radius: 6px;
-    font-size:.8rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase;
-    color: var(--text-dim); transition: all .15s ease;
+    position:relative; width:50px; height:50px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    background: var(--bg-alt); color: var(--text-dim);
+    isolation:isolate; transition: color .2s ease, transform .2s ease;
   }
-  .hero-links a:hover{ color: var(--bg); background: var(--secondary); border-color: var(--secondary); }
+  .hero-links a::before{
+    content:""; position:absolute; inset:0; border-radius:50%; padding:2px;
+    background: conic-gradient(from 0deg, var(--primary), var(--secondary), var(--primary));
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor; mask-composite: exclude;
+    opacity:0; transition: opacity .25s ease; z-index:0;
+    animation: spin-ring 2.2s linear infinite; animation-play-state: paused;
+  }
+  .hero-links a::after{
+    content:""; position:absolute; inset:0; border-radius:50%; border:1px solid var(--border-strong);
+    transition: opacity .2s ease;
+  }
+  .hero-links a:hover{ color: var(--secondary); transform: translateY(-3px); }
+  .hero-links a:hover::before{ opacity:1; animation-play-state: running; }
+  .hero-links a:hover::after{ opacity:0; }
+  .hero-links a svg{ position:relative; z-index:1; width:20px; height:20px; }
+  @keyframes spin-ring{ to{ transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce){
+    .hero-links a::before{ animation-duration: 6s; }
+  }
 
   /* ---------- Sections generic ---------- */
   section{ padding: 92px 0; }
