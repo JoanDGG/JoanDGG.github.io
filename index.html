@@ -1,3 +1,527 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joan Guerrero — Technical Designer & Game Developer</title>
+<meta name="description" content="Portfolio of Joan Daniel Guerrero García (Deverso GG) — Technical Designer, Game Developer & Software Engineer working in Unity and Unreal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="brand">
+      <span class="brand-mark">DG</span>
+      <span class="brand-text">Deverso GG</span>
+    </div>
+    <nav class="nav-links" id="engineNav">
+      <a href="#about">About</a>
+      <a href="#work">Featured</a>
+      <a href="#all-projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:10px;">
+      <a class="nav-cta" href="mailto:ggjoan2000@gmail.com">Contact</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Hero -->
+<section class="hero" id="about">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow"><span class="dot"></span> Open to collaborations &amp; freelance work</div>
+      <h1 class="hero-title">Joan Guerrero —<br>building <span class="hl">interactive worlds</span> from shader to system.</h1>
+      <p class="hero-desc">Technical Designer, Game Developer &amp; Software Engineer with 7+ years across Unity and Unreal. I work the full stack of a game — gameplay systems, shaders, tools, and the narrative logic that ties them together — drawing on mythology and old stories as much as on clean code.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#work">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 3l14 9-14 9V3z"/></svg>
+          View featured work
+        </a>
+        <a class="btn btn-ghost" href="https://docs.google.com/document/d/1PI5AWjop79aOp6cEA49tOxitxGoCL1fr/edit?usp=sharing&ouid=107575643882741543212&rtpof=true&sd=true" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg>
+          Résumé
+        </a>
+        <a class="btn btn-ghost" href="https://github.com/JoanDGG" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="player-card">
+      <div class="player-banner">
+        <img class="player-avatar" src="Images/Logo-Deverso.png" alt="Deverso GG logo">
+      </div>
+      <div class="player-body">
+        <div class="player-name">Joan Daniel Guerrero García</div>
+        <div class="player-role">Technical Designer / Game Developer · "Deverso GG"</div>
+        <div class="stat-pills">
+          <span class="stat-pill">🎮 <b>7+ yrs</b> experience</span>
+          <span class="stat-pill">🛠️ <b>Unity</b> &amp; <b>Unreal 5</b></span>
+          <span class="stat-pill">🏔️ Currently @ <b>VFS</b></span>
+        </div>
+        <span class="status-pill">Open to work</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Projects -->
+<section id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="badge-label">✨ Featured Projects</div>
+        <h2 class="section-title">Selected work</h2>
+        <p class="section-sub">The projects I'd point you to first — spanning shipped games, published titles, and professional client work.</p>
+      </div>
+    </div>
+
+    <div class="grid-featured">
+
+      <div class="card">
+        <div class="card-thumb" style="--thumb-a: rgba(255,41,112,.35); --thumb-b: rgba(214,0,71,.15);">
+          <span class="thumb-tag">Team Project · VFS</span>
+          <span class="badge-icon">EBI</span>
+        </div>
+        <div class="card-body">
+          <div class="card-title">Escape from Bear Island</div>
+          <p class="card-desc">GD80 PG29 team project at Vancouver Film School — a 3D Unity experience built with a custom ShaderGraph pipeline.</p>
+          <div class="chip-row"><span class="chip">Unity 3D</span><span class="chip">ShaderGraph</span><span class="chip">C#</span></div>
+          <a class="card-link" href="https://deversogg.itch.io/escape-from-bear-island" target="_blank" rel="noopener">Play on itch.io
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb" style="--thumb-a: rgba(0,235,235,.30); --thumb-b: rgba(0,147,146,.18);">
+          <span class="thumb-tag">Doggo Creative Studio</span>
+          <span class="badge-icon">VQ</span>
+        </div>
+        <div class="card-body">
+          <div class="card-title">Vaqueritos</div>
+          <p class="card-desc">A 1v1 multiplayer game set in the old west, networked with Photon PUN2 and backed by Firebase.</p>
+          <div class="chip-row"><span class="chip">Unity 2D</span><span class="chip">Photon PUN2</span><span class="chip">Firebase</span><span class="chip">C#</span></div>
+          <a class="card-link" href="https://doggo-creative-studio.itch.io/vaqueritos" target="_blank" rel="noopener">Play on itch.io
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb" style="--thumb-a: rgba(255,41,112,.35); --thumb-b: rgba(214,0,71,.15);">
+          <span class="thumb-tag">Published · Steam</span>
+          <span class="badge-icon">ND</span>
+        </div>
+        <div class="card-body">
+          <div class="card-title">Neo Dance</div>
+          <p class="card-desc">A 4-point rhythm-action game — I was lead developer and programmer, shipped and live on Steam.</p>
+          <div class="chip-row"><span class="chip">Unity 2D</span><span class="chip">Firebase</span><span class="chip">C#</span></div>
+          <a class="card-link" href="https://store.steampowered.com/app/2559020/Neo_Dance/" target="_blank" rel="noopener">View on Steam
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb" style="--thumb-a: rgba(0,235,235,.30); --thumb-b: rgba(0,147,146,.18);">
+          <span class="thumb-tag">Tagwizz Studio</span>
+          <span class="badge-icon">PC</span>
+        </div>
+        <div class="card-body">
+          <div class="card-title">Planet Crash</div>
+          <p class="card-desc">A 3D platformer-shooter built in Unity URP with Pro-builder level blocking, supervised by Tagwizz Studio.</p>
+          <div class="chip-row"><span class="chip">Unity 3D</span><span class="chip">URP</span><span class="chip">Pro-builder</span><span class="chip">C#</span></div>
+          <a class="card-link" href="https://foundtexas.itch.io/planet-crash" target="_blank" rel="noopener">Play on itch.io
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb" style="--thumb-a: rgba(255,41,112,.35); --thumb-b: rgba(214,0,71,.15);">
+          <span class="thumb-tag">Client Work · Telmex</span>
+          <span class="badge-icon">TX</span>
+        </div>
+        <div class="card-body">
+          <div class="card-title">TECMEX App</div>
+          <p class="card-desc">A contact-center simulation for Telmex using Amazon Connect and Amazon Voice ID, with a React front end.</p>
+          <div class="chip-row"><span class="chip">AWS</span><span class="chip">Amazon Connect</span><span class="chip">React</span></div>
+          <a class="card-link" href="https://github.com/AmazonConnect-TECCEM-502" target="_blank" rel="noopener">View repository
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb" style="--thumb-a: rgba(0,235,235,.30); --thumb-b: rgba(0,147,146,.18);">
+          <span class="thumb-tag">VR · Fondo Creativo</span>
+          <span class="badge-icon">DCA</span>
+        </div>
+        <div class="card-body">
+          <div class="card-title">Deep Cognitive Artist</div>
+          <p class="card-desc">A VR and mobile art-cognition experience built for Oculus Quest 2, exploring generative interaction.</p>
+          <div class="chip-row"><span class="chip">Unity 3D</span><span class="chip">Oculus Quest 2</span><span class="chip">Firebase</span></div>
+          <span class="card-link" style="background: var(--bg-alt); color: var(--text-faint); box-shadow:none;">Internal / unreleased build</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- All Projects -->
+<section id="all-projects">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="badge-label alt">🗂️ All Projects</div>
+        <h2 class="section-title">Full project log</h2>
+        <p class="section-sub">Game jams, personal projects, and experiments — mostly built in 48–72 hours. Filter by stack.</p>
+      </div>
+    </div>
+
+    <div class="filters" id="filterBar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="unity3d">Unity 3D</button>
+      <button class="filter-btn" data-filter="unity2d">Unity 2D</button>
+      <button class="filter-btn" data-filter="gamemaker">GameMaker</button>
+      <button class="filter-btn" data-filter="web">Web / Cloud</button>
+      <button class="filter-btn" data-filter="python">Python / AI</button>
+    </div>
+
+    <div class="grid-all" id="allProjectsGrid">
+
+      <div class="row-card" data-tags="unity2d">
+        <div class="row-main">
+          <div class="row-title">Keep it Up!</div>
+          <div class="row-desc">Pixel-art physics soccer speedrun, built for ScoreJam #37.</div>
+          <div class="chip-row"><span class="chip">Unity 2D</span><span class="chip">C#</span></div>
+        </div>
+        <a class="row-link" href="https://deversogg.itch.io/keep-up" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="unity3d">
+        <div class="row-main">
+          <div class="row-title">Yaoyotl</div>
+          <div class="row-desc">Made for the game jam celebrating Latinx Heritage Month.</div>
+          <div class="chip-row"><span class="chip">Unity 3D</span><span class="chip">Photon PUN2</span><span class="chip">Firebase</span></div>
+        </div>
+        <a class="row-link" href="https://doggo-creative-studio.itch.io/yaoyotl" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="unity2d">
+        <div class="row-main">
+          <div class="row-title">Last Santa Standing</div>
+          <div class="row-desc">Built during Cozy Winter Jam 2022.</div>
+          <div class="chip-row"><span class="chip">Unity 2D</span><span class="chip">C#</span></div>
+        </div>
+        <a class="row-link" href="https://doggo-creative-studio.itch.io/lss" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="python unity3d">
+        <div class="row-main">
+          <div class="row-title">Multi-agent Simulation App</div>
+          <div class="row-desc">A 3D multi-agent traffic simulation using the Mesa framework.</div>
+          <div class="chip-row"><span class="chip">Python</span><span class="chip">Mesa AI</span><span class="chip">Unity 3D</span></div>
+        </div>
+        <a class="row-link" href="https://github.com/JoanDGG/Modelo-multiagentes" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="unity2d">
+        <div class="row-main">
+          <div class="row-title">Honey, You're Dreaming</div>
+          <div class="row-desc">Built during Brackeys Game Jam 2022.1.</div>
+          <div class="chip-row"><span class="chip">Unity 2D</span><span class="chip">C#</span></div>
+        </div>
+        <a class="row-link" href="https://doggo-creative-studio.itch.io/honey-youre-dreaming" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="web">
+        <div class="row-main">
+          <div class="row-title">App Dibujando un Mañana</div>
+          <div class="row-desc">Mobile app supporting a nonprofit's activities and donations.</div>
+          <div class="chip-row"><span class="chip">Kotlin</span><span class="chip">Firebase</span><span class="chip">PayPal</span></div>
+        </div>
+        <a class="row-link" href="https://github.com/aenco9/dibujandoApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="unity2d">
+        <div class="row-main">
+          <div class="row-title">The Greatest Ultimate Candy Challenge</div>
+          <div class="row-desc">Built during Spooky Jam 2021.</div>
+          <div class="chip-row"><span class="chip">Unity 2D</span><span class="chip">C#</span></div>
+        </div>
+        <a class="row-link" href="https://deversogg.itch.io/tgucc" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="unity2d">
+        <div class="row-main">
+          <div class="row-title">Break</div>
+          <div class="row-desc">Built for Mini Jam 87, theme "Break".</div>
+          <div class="chip-row"><span class="chip">Unity 2D</span><span class="chip">C#</span></div>
+        </div>
+        <a class="row-link" href="https://doggo-creative-studio.itch.io/break" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="unity2d">
+        <div class="row-main">
+          <div class="row-title">Time Twist Mayhem</div>
+          <div class="row-desc">Built for "A Jam About Time".</div>
+          <div class="chip-row"><span class="chip">Unity 2D</span><span class="chip">C#</span></div>
+        </div>
+        <a class="row-link" href="https://deversogg.itch.io/time-twist-mayhem" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="unity2d">
+        <div class="row-main">
+          <div class="row-title">Personal Space</div>
+          <div class="row-desc">A chill personal game built solo in 24 hours.</div>
+          <div class="chip-row"><span class="chip">Unity 2D</span><span class="chip">C#</span></div>
+        </div>
+        <a class="row-link" href="https://deversogg.itch.io/personal-space" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="unity2d web">
+        <div class="row-main">
+          <div class="row-title">Proyecto Marte</div>
+          <div class="row-desc">2D game spreading STEAM's mission, backed by a MySQL server.</div>
+          <div class="chip-row"><span class="chip">Unity 2D</span><span class="chip">MySQL</span></div>
+        </div>
+        <a class="row-link" href="https://github.com/JoanDGG/ServidorProyectoMarte" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="gamemaker">
+        <div class="row-main">
+          <div class="row-title">Space Rocks</div>
+          <div class="row-desc">A fan tribute to the classic "Asteroids".</div>
+          <div class="chip-row"><span class="chip">GameMaker Studio 2</span><span class="chip">GML</span></div>
+        </div>
+        <a class="row-link" href="https://deversogg.itch.io/space-rocks" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="gamemaker">
+        <div class="row-main">
+          <div class="row-title">Neko Game!!</div>
+          <div class="row-desc">A fan tribute to the Windows Phone game "Neko".</div>
+          <div class="chip-row"><span class="chip">GameMaker Studio 2</span><span class="chip">GML</span></div>
+        </div>
+        <a class="row-link" href="https://deversogg.itch.io/neko-game" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+      <div class="row-card" data-tags="gamemaker">
+        <div class="row-main">
+          <div class="row-title">Space Intruder</div>
+          <div class="row-desc">A fan tribute to the classic "Space Invaders".</div>
+          <div class="chip-row"><span class="chip">GameMaker Studio 2</span><span class="chip">GML</span></div>
+        </div>
+        <a class="row-link" href="https://deversogg.itch.io/space-intruders" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="badge-label">🧭 Experience</div>
+        <h2 class="section-title">Where I've worked &amp; studied</h2>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="t-item" style="--t-color: var(--primary);">
+        <div class="t-card">
+          <div class="t-date">JUL 2024 — PRESENT</div>
+          <div class="t-role">Founder / Team Lead</div>
+          <div class="t-org">Doggo Creative Studio</div>
+          <p class="t-desc">Leading a multidisciplinary team of 10+ artists, designers, developers and audio devs building a new studio based in Mexico, focused on expanding the industry for newcomers.</p>
+          <div class="chip-row"><span class="chip">Unity</span><span class="chip">C#</span><span class="chip">Leadership</span></div>
+        </div>
+      </div>
+      <div class="t-item" style="--t-color: var(--secondary);">
+        <div class="t-card">
+          <div class="t-date">AUG 2025 — PRESENT</div>
+          <div class="t-role">Game Design Student</div>
+          <div class="t-org">Vancouver Film School</div>
+          <p class="t-desc">One-year program with industry instructors, expanding into level design, documentation structure, Unreal Engine 5 and Maya.</p>
+          <div class="chip-row"><span class="chip">Unreal Engine 5</span><span class="chip">Maya</span><span class="chip">Documentation</span></div>
+        </div>
+      </div>
+      <div class="t-item" style="--t-color: var(--primary);">
+        <div class="t-card">
+          <div class="t-date">JAN 2025 — SEP 2025</div>
+          <div class="t-role">Full Stack Python Developer</div>
+          <div class="t-org">Sproule Mexico</div>
+          <p class="t-desc">Built the visual interface and backend logic for data modeling and prediction in the energy industry, using Dash, Plotly and Bootstrap, managed via Azure DevOps.</p>
+          <div class="chip-row"><span class="chip">Python</span><span class="chip">Dash</span><span class="chip">Plotly</span><span class="chip">Azure DevOps</span></div>
+        </div>
+      </div>
+      <div class="t-item" style="--t-color: var(--secondary);">
+        <div class="t-card">
+          <div class="t-date">AUG 2024 — OCT 2024</div>
+          <div class="t-role">Unity Developer</div>
+          <div class="t-org">Lunion Innovations</div>
+          <p class="t-desc">Built a VR-optimized 3D simulation for Meta Quest 3, presented at the International Astronautical Congress (IAC 2024) in Milan.</p>
+          <div class="chip-row"><span class="chip">Unity 3D</span><span class="chip">Meta Quest 3</span></div>
+        </div>
+      </div>
+      <div class="t-item" style="--t-color: var(--primary);">
+        <div class="t-card">
+          <div class="t-date">SEP 2024 — OCT 2024</div>
+          <div class="t-role">Full Stack Developer</div>
+          <div class="t-org">Prefixa</div>
+          <p class="t-desc">Recreated lunar-accurate physics and interactions for VR/AR — vehicle controllers, real-time radar systems and a virtual-assistant robot — presented at the VRARA Meetup in Querétaro.</p>
+          <div class="chip-row"><span class="chip">Unity</span><span class="chip">Meta Quest 3</span><span class="chip">AR</span></div>
+        </div>
+      </div>
+      <div class="t-item" style="--t-color: var(--secondary);">
+        <div class="t-card">
+          <div class="t-date">FEB 2024 — DEC 2024</div>
+          <div class="t-role">Unity Developer</div>
+          <div class="t-org">Institute of Advanced Materials for Sustainable Manufacturing</div>
+          <p class="t-desc">Built a generative content algorithm for a VR gamification and training project.</p>
+          <div class="chip-row"><span class="chip">Unity</span><span class="chip">Omniverse</span><span class="chip">OpenAI</span></div>
+        </div>
+      </div>
+      <div class="t-item" style="--t-color: var(--primary);">
+        <div class="t-card">
+          <div class="t-date">OCT 2022 — OCT 2023</div>
+          <div class="t-role">Lead Developer &amp; Programmer</div>
+          <div class="t-org">Word Games — "Neo Dance"</div>
+          <p class="t-desc">Led development of the rhythm-action game Neo Dance from prototype through to its Steam release.</p>
+          <div class="chip-row"><span class="chip">Unity 2D</span><span class="chip">C#</span></div>
+        </div>
+      </div>
+      <div class="t-item" style="--t-color: var(--secondary);">
+        <div class="t-card">
+          <div class="t-date">AUG 2019 — JUN 2023</div>
+          <div class="t-role">B.Sc. Computer Science &amp; Technology</div>
+          <div class="t-org">Instituto Tecnológico de Estudios Superiores de Monterrey · Game Dev specialization</div>
+          <p class="t-desc">Bachelor's degree specialized in videogame development.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="badge-label alt">🧩 Skills</div>
+        <h2 class="section-title">Toolkit</h2>
+      </div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3 style="--sg-color: var(--primary); --sg-bg: var(--primary-soft);">Engines &amp; Graphics</h3>
+        <div class="skill-tags">
+          <span class="chip">Unity</span><span class="chip">Unreal Engine 5</span><span class="chip">GameMaker Studio 2</span>
+          <span class="chip">ShaderGraph</span><span class="chip">UE5 Blueprints</span><span class="chip">OpenGL</span><span class="chip">Godot</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3 style="--sg-color: var(--secondary); --sg-bg: var(--secondary-soft);">Languages</h3>
+        <div class="skill-tags">
+          <span class="chip">C#</span><span class="chip">C++</span><span class="chip">Python</span><span class="chip">TypeScript</span>
+          <span class="chip">JavaScript</span><span class="chip">Java</span><span class="chip">Kotlin</span><span class="chip">Ruby</span><span class="chip">GML</span><span class="chip">SQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3 style="--sg-color: var(--primary); --sg-bg: var(--primary-soft);">Web &amp; Frameworks</h3>
+        <div class="skill-tags">
+          <span class="chip">React</span><span class="chip">Node</span><span class="chip">Express</span><span class="chip">HTML5</span>
+          <span class="chip">CSS3 / SASS</span><span class="chip">Phaser</span><span class="chip">Bootstrap</span><span class="chip">Dash</span><span class="chip">Plotly</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3 style="--sg-color: var(--secondary); --sg-bg: var(--secondary-soft);">Data &amp; Backend</h3>
+        <div class="skill-tags">
+          <span class="chip">Firebase</span><span class="chip">MySQL</span><span class="chip">SQL Server</span><span class="chip">MongoDB</span>
+          <span class="chip">Neo4j</span><span class="chip">BaseX</span><span class="chip">Azure DevOps</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3 style="--sg-color: var(--primary); --sg-bg: var(--primary-soft);">Multiplayer &amp; AI</h3>
+        <div class="skill-tags">
+          <span class="chip">Photon PUN</span><span class="chip">Mesa AI</span><span class="chip">OpenAI</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3 style="--sg-color: var(--secondary); --sg-bg: var(--secondary-soft);">Tools &amp; Workflow</h3>
+        <div class="skill-tags">
+          <span class="chip">Git</span><span class="chip">VS Code</span><span class="chip">Blender</span><span class="chip">Maya</span>
+          <span class="chip">Android Studio</span><span class="chip">Plastic SCM</span><span class="chip">Trello</span><span class="chip">ClickUp</span><span class="chip">Scrum</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-panel">
+      <div>
+        <h2>Let's build something.</h2>
+        <p>I'm always open to meeting new people and collaborating on exciting projects — or just talking shop about games. Reach out however's easiest.</p>
+        <a class="btn btn-primary" style="margin-top:22px;" href="mailto:ggjoan2000@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
+          ggjoan2000@gmail.com
+        </a>
+      </div>
+      <div class="contact-links">
+        <a class="clink" href="https://github.com/JoanDGG" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+          GitHub
+        </a>
+        <a class="clink" href="https://www.linkedin.com/in/joan-daniel-guerrero-garcia" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/><path d="M8 9h4v2s1.5-2.5 4.5-2.5S21 10.5 21 14v7h-4v-6c0-1.5-.5-3-2.5-3S12 13 12 15v6H8z"/></svg>
+          LinkedIn
+        </a>
+        <a class="clink" href="https://deversogg.itch.io" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16l1 5a3 3 0 01-5.5 1.7A3 3 0 0113 12a3 3 0 01-2.5-1.3A3 3 0 015 9.7 3 3 0 013 4"/><path d="M5 9v9a2 2 0 002 2h10a2 2 0 002-2V9"/></svg>
+          itch.io
+        </a>
+        <a class="clink" href="https://steamcommunity.com/id/MasterGG101/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg>
+          Steam
+        </a>
+        <a class="clink" href="https://discord.com/users/354008363404623872" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="13" rx="3"/><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/></svg>
+          Discord
+        </a>
+        <a class="clink" href="https://linktr.ee/joandgg" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg>
+          Linktree
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Joan Daniel Guerrero García — built with plain HTML, CSS &amp; JS, hosted on GitHub Pages.
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
