@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\assets",
-    "\\assets\\img",
-    "\\_data",
-    "\\_includes",
-    "\\_js",
-    "\\_layouts",
-    "\\_sass"
+    ""
   ],
-  "SelectedNode": "\\_data\\timeline.yml",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }

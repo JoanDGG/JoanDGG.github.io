@@ -1,3 +1,13 @@
+/* ---------- Brand -> top of page ---------- */
+(function initBrandHome(){
+  const brand = document.getElementById('brandHome');
+  if (!brand) return;
+  brand.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+
 /* ---------- Typewriter tagline ---------- */
 (function initTypewriter(){
   const el = document.getElementById('typeText');
