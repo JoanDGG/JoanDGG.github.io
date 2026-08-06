@@ -5,7 +5,8 @@
   const ctx = canvas.getContext('2d');
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  const colors = ['#ff2970', '#00ebeb', '#d60047', '#009392', '#f3eef7'];
+  const colors = ['#ff2970', '#00ebeb'];
+  const speedFactor = reduceMotion ? 0.06 : 1;
   let particles = [];
   let width, height, dpr;
 
@@ -25,10 +26,10 @@
     return {
       x: Math.random() * width,
       y: randomY ? Math.random() * height : -10,
-      size: 1.5 + depth * 3.5,
-      speed: 0.4 + depth * 1.6,
+      size: 3 + depth * 5,
+      speed: (0.4 + depth * 1.6) * speedFactor,
       color: colors[Math.floor(Math.random() * colors.length)],
-      opacity: 0.15 + depth * 0.55
+      opacity: 0.18 + depth * 0.55
     };
   }
 
@@ -55,19 +56,7 @@
 
   sizeCanvas();
   initParticles();
-
-  if (reduceMotion){
-    // Draw a single static frame instead of animating continuously
-    ctx.clearRect(0, 0, width, height);
-    particles.forEach(p => {
-      ctx.globalAlpha = p.opacity;
-      ctx.fillStyle = p.color;
-      ctx.fillRect(p.x, p.y, p.size, p.size);
-    });
-    ctx.globalAlpha = 1;
-  } else {
-    requestAnimationFrame(draw);
-  }
+  requestAnimationFrame(draw);
 
   let resizeTimer;
   window.addEventListener('resize', () => {
