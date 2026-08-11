@@ -102,10 +102,11 @@
   .brand-mark{
     width:34px; height:34px; border-radius:50%; display:flex; align-items:center; justify-content:center;
     background: linear-gradient(135deg, var(--primary), var(--secondary-deep));
-    font-family: var(--font-display); font-weight:700; font-size:.85rem; color:#170f1c;
     box-shadow: 0 3px 0 rgba(0,0,0,.25);
     transition: transform .18s ease;
+    overflow:hidden; padding:5px;
   }
+  .brand-mark img{ width:100%; height:100%; object-fit:contain; display:block; }
 
   .nav-links{ display:flex; align-items:center; gap:4px; }
   .nav-links a{
@@ -138,7 +139,7 @@
     display:flex; align-items:center;
   }
   .hero-logo-bg{
-    position:absolute; top:50%; right:6%; transform: translateY(-50%);
+    position:absolute; top:50%; right:3%; transform: translateY(-50%);
     width: 700px; max-width: 68vw; opacity:.07; filter: grayscale(1) brightness(2);
     pointer-events:none; z-index:0; user-select:none;
   }
@@ -261,18 +262,24 @@
   }
   .card:hover{ transform: translateY(-5px) rotate(-.4deg); border-color: var(--border-strong); box-shadow: 0 16px 34px rgba(0,0,0,.32); }
   .card-thumb{
-    position:relative; height:132px;
+    position:relative; height:132px; overflow:hidden;
     background: linear-gradient(135deg, var(--thumb-a, var(--primary-soft)), var(--thumb-b, var(--secondary-soft)));
     display:flex; align-items:center; justify-content:center;
   }
+  .card-thumb img{
+    position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:1;
+    transition: transform .35s ease;
+  }
+  .card:hover .card-thumb img{ transform: scale(1.05); }
   .card-thumb .badge-icon{
+    position:relative; z-index:0;
     width:56px; height:56px; border-radius:50%; display:flex; align-items:center; justify-content:center;
     background: rgba(23,15,28,.55); backdrop-filter: blur(2px);
     font-family: var(--font-display); font-weight:700; font-size:1.15rem; color:#fff;
     border: 2px solid rgba(255,255,255,.25);
   }
   .card-thumb .thumb-tag{
-    position:absolute; top:12px; left:12px; font-size:.68rem; font-weight:700;
+    position:absolute; top:12px; left:12px; z-index:2; font-size:.68rem; font-weight:700;
     color:#fff; background: rgba(23,15,28,.55); padding:5px 11px; border-radius: var(--r-pill);
   }
   .card-body{ padding: 20px 22px 22px; display:flex; flex-direction:column; gap:11px; flex:1; }
