@@ -1,3 +1,35 @@
+/* ---------- Featured card hover-to-play video previews ---------- */
+(function initCardVideos(){
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduceMotion) return; // keep static screenshots only
+
+  document.querySelectorAll('.card-thumb').forEach(thumb => {
+    const video = thumb.querySelector('video');
+    if (!video) return;
+
+    let unavailable = false;
+    video.addEventListener('error', () => { unavailable = true; }, true);
+
+    thumb.addEventListener('mouseenter', () => {
+      if (unavailable || !video.querySelector('source')) return;
+      video.currentTime = 0;
+      const playPromise = video.play();
+      if (playPromise && playPromise.then){
+        playPromise
+          .then(() => thumb.classList.add('video-active'))
+          .catch(() => { unavailable = true; });
+      } else {
+        thumb.classList.add('video-active');
+      }
+    });
+
+    thumb.addEventListener('mouseleave', () => {
+      thumb.classList.remove('video-active');
+      video.pause();
+    });
+  });
+})();
+
 /* ---------- Brand -> top of page ---------- */
 (function initBrandHome(){
   const brand = document.getElementById('brandHome');

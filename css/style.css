@@ -139,7 +139,7 @@
     display:flex; align-items:center;
   }
   .hero-logo-bg{
-    position:absolute; top:50%; right:3%; transform: translateY(-50%);
+    position:absolute; top:50%; right:-6%; transform: translateY(-50%);
     width: 700px; max-width: 68vw; opacity:.07; filter: grayscale(1) brightness(2);
     pointer-events:none; z-index:0; user-select:none;
   }
@@ -271,6 +271,11 @@
     transition: transform .35s ease;
   }
   .card:hover .card-thumb img{ transform: scale(1.05); }
+  .card-thumb video{
+    position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:2;
+    opacity:0; transition: opacity .3s ease; pointer-events:none;
+  }
+  .card-thumb.video-active video{ opacity:1; }
   .card-thumb .badge-icon{
     position:relative; z-index:0;
     width:56px; height:56px; border-radius:50%; display:flex; align-items:center; justify-content:center;
