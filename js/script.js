@@ -5,19 +5,15 @@
 
   document.querySelectorAll('.card-thumb').forEach(thumb => {
     const video = thumb.querySelector('video');
-    if (!video) return;
-
-    let unavailable = false;
-    video.addEventListener('error', () => { unavailable = true; }, true);
+    if (!video || !video.querySelector('source')) return;
 
     thumb.addEventListener('mouseenter', () => {
-      if (unavailable || !video.querySelector('source')) return;
       video.currentTime = 0;
       const playPromise = video.play();
       if (playPromise && playPromise.then){
         playPromise
           .then(() => thumb.classList.add('video-active'))
-          .catch(() => { unavailable = true; });
+          .catch(() => { /* no playable source yet, or autoplay blocked — keep static image */ });
       } else {
         thumb.classList.add('video-active');
       }
